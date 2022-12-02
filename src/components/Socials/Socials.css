@@ -1,0 +1,22 @@
+.socials {
+    position: absolute;
+    left: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+
+.socials__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials__line {
+    height: 10vh;
+    width: 1px;
+    background: white;
+}

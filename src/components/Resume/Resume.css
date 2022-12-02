@@ -1,0 +1,20 @@
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.socials__line {
+    height: 10vh;
+    width: 1px;
+    background: white;
+}
+
+.resume__title {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}

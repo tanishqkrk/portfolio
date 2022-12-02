@@ -1,0 +1,27 @@
+.blogs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 8rem 0;
+}
+
+.blogs__title {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.blogs__blog {
+    padding: 4rem 0;
+
+    /* width: 80%; */
+    width: 80%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+    grid-gap: 50px;
+    /* margin: 4rem 0; */
+}

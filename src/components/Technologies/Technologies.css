@@ -1,0 +1,81 @@
+.technologies {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 4rem 0;
+    /* width: 100%; */
+}
+
+.technologies__title {
+    font-size: 2rem;
+    font-weight: 600;
+    width: 50%;
+}
+
+.technologies__desc {
+    font-size: .9rem;
+    font-weight: 400;
+    text-align: left;
+    margin: 1rem 0;
+    width: 70%;
+}
+
+.technologies__list {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.technologies__list--item {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(27, 27, 27);
+    border-radius: 10px;
+    padding: 1rem;
+    transition: .3s !important;
+    /* margin: 0px; */
+}
+
+.technologies__list--item--img {
+    width: 100px;
+}
+
+.javascript {
+    box-shadow: 0 0 20px #EFD81D;
+}
+
+.react {
+    box-shadow: 0 0 20px #00CCFF;
+}
+
+.jquery {
+    box-shadow: 0 0 20px #0767ab;
+}
+
+.bootstrap {
+    box-shadow: 0 0 20px #8011F5;
+}
+
+.laravel {
+    box-shadow: 0 0 20px #F7291C;
+}
+
+.vite {
+    box-shadow: 0 0 20px #4a7aff;
+}
+
+.postman {
+    box-shadow: 0 0 20px #ED6D3F;
+}
+
+.git {
+    box-shadow: 0 0 20px #E84D31;
+}
+
+.technologies__list--item:hover {
+
+    box-shadow: 0 0 10px white;
+    /* transform: translateY(-5px) !important; */
+}

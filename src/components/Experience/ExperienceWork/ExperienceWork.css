@@ -1,0 +1,37 @@
+.experience__work {
+    z-index: 2;
+    /* position: absolute; */
+    width: 100%;
+    text-align: right;
+    /* right: 0; */
+}
+
+.experience__work * {
+    margin: 5px 0;
+
+}
+
+.experience__work--title {
+    font-size: 1.5rem;
+    /* font-weight: 500; */
+    font-weight: 600;
+}
+
+.experience__work--firm {
+    border-bottom: .1px solid rgba(255, 255, 255, .3);
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+}
+
+
+.experience__work:nth-child(2) {
+    /* left: 100%; */
+    /* text-align: left; */
+}
+
+.experience__work:nth-child(3) {
+    /* right: 100%; */
+    /* text-align: right; */
+}

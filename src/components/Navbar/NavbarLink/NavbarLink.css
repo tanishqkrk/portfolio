@@ -1,0 +1,26 @@
+.navbar__link {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar__link::after {
+    content: '';
+    width: 100%;
+    width: 0%;
+    height: 2px;
+    background: var(--linear-gradient);
+    background-size: 200%;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    transition: .3s ease;
+    animation: textGradient 3s linear infinite;
+
+}
+
+.navbar__link:hover::after {
+    width: 100%;
+
+}

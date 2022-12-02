@@ -1,0 +1,31 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects__title {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.projects__desc {
+    font-size: .9rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.projects__work {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-content: center;
+}
+
+.githubProjects__title {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
