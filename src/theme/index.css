@@ -64,14 +64,14 @@ html {
 }
 
 [data-aos] {
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 
 .aos-animate {
-  pointer-events: auto;
+  /* pointer-events: auto; */
 }
 
 .aos-init[data-aos][data-aos].aos-animate {
   /* transform-style: preserve-3d; */
-  transform: unset;
+  /* transform: unset; */
 }
