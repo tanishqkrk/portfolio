@@ -18,9 +18,9 @@ const Projects = () => {
                 <div className="projects__desc">I've developed a lot of personal side projects some, my favourites are as below:</div>
             </div>
             <div data-aos="fade-down" className="projects__work">
-                <Project name={'IP Address Tracker'} desc={"Track any IP address, get its location, vpn status and ISP"} github={'https://github.com/tanishqkrk/IP-tracker'} img={'./ip.png'} href={'https://tanishqkrk.github.io/IP-tracker '} ></Project>
-                <Project position={'right'} name={'Password Generator'} desc={"Generate passwords and provide your own parameters (Uppercase, Lowercase, Number and Symbols)"} github={'https://github.com/tanishqkrk/password-generator'} img={'./pg.png'} href={'https://tanishqkrk.github.io/password-generator '} ></Project>
-                <Project name={'Card checkout front-end'} desc={"Front-end for a card details checkout page"} github={'https://github.com/tanishqkrk/password-generator'} img={'./card.png'} href={'https://tanishqkrk.github.io/password-generator '} ></Project>
+                <Project name={'IP Address Tracker'} desc={"Track any IP address, get its location, vpn status and ISP"} github={'https://github.com/tanishqkrk/IP-tracker'} img={'./ip-min.png'} href={'https://tanishqkrk.github.io/IP-tracker '} ></Project>
+                <Project position={'right'} name={'Password Generator'} desc={"Generate passwords and provide your own parameters (Uppercase, Lowercase, Number and Symbols)"} github={'https://github.com/tanishqkrk/password-generator'} img={'./pg-min.png'} href={'https://tanishqkrk.github.io/password-generator '} ></Project>
+                <Project name={'Card checkout front-end'} desc={"Front-end for a card details checkout page"} github={'https://github.com/tanishqkrk/password-generator'} img={'./card-min.png'} href={'https://tanishqkrk.github.io/password-generator '} ></Project>
             </div>
             <div data-aos="fade-down" className="githubProjects__title">Other projects you may find intersting!</div>
             <div className="github" data-aos-duration="1000" data-aos="fade-down">
