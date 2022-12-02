@@ -10,7 +10,7 @@ import './GithubProject/GithubProject.css'
 const Projects = () => {
     useEffect(() => {
         AOS.init();
-        setTimeout(() => AOS.refresh(), 100);
+        AOS.refresh();
     }, []);
     return (
         <div id='projects' className="projects">

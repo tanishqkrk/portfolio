@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 const Technologies = () => {
     useEffect(() => {
         AOS.init();
-        AOS.refresh();
+        AOS.refresh()
     }, []);
     return (
         <div className="technologies" id='technologies'>
