@@ -14,7 +14,9 @@
 <body>
   <div id="root"></div>
   <script>
-    AOS.init();
+    window.addEventListener('load', function () { AOS.init(); });
+
+
     // window.onload(AOS.refresh())
     // setTimeout(() => { AOS.refresh() }, 0)
   </script>
