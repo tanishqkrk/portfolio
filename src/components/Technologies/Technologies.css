@@ -26,6 +26,12 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.technologies__list--item--img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
 .technologies__list--item {
     /* width: 100%; */
     display: flex;
@@ -35,43 +41,75 @@
     border-radius: 10px;
     padding: 1rem;
     transition: .3s !important;
+    position: relative;
+
     /* margin: 0px; */
 }
 
-.technologies__list--item--img {
-    width: 100px;
+.technologies__list--item::before {
+    transition: .3s;
+    filter: blur(5px);
+    border-radius: 10px;
+    padding: 2px;
+    z-index: -1 !important;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
-.javascript {
-    box-shadow: 0 0 20px #EFD81D;
+.javascript::before {
+    animation: textGradient 2s linear infinite;
+    background: linear-gradient(to right, #EFD81D, #716400, #EFD81D);
+    background-size: 200%;
 }
 
-.react {
-    box-shadow: 0 0 20px #00CCFF;
+.react::before {
+    animation: textGradient 4s linear infinite;
+    background: linear-gradient(to right, #00CCFF, #003c4b, #00CCFF);
+    background-size: 200%;
+    /* box-shadow: 0 0 20px #00CCFF; */
 }
 
-.jquery {
-    box-shadow: 0 0 20px #0767ab;
+.jquery::before {
+    animation: textGradient 2.5s linear infinite;
+    background: linear-gradient(to right, #0767ab, #002d4d, #0767ab);
+    background-size: 200%;
+    /* box-shadow: 0 0 20px #0767ab; */
 }
 
-.bootstrap {
-    box-shadow: 0 0 20px #8011F5;
+.bootstrap::before {
+    animation: textGradient 3.2s linear infinite;
+
+    background: linear-gradient(to right, #8011F5, #39086d, #8011F5);
+    background-size: 200%;
 }
 
-.laravel {
-    box-shadow: 0 0 20px #F7291C;
+
+.laravel::before {
+    animation: textGradient 2.8s linear infinite;
+    background: linear-gradient(to right, #F7291C, #500d09, #F7291C);
+    background-size: 200%;
+    /* box-shadow: 0 0 20px #F7291C; */
 }
 
-.vite {
-    box-shadow: 0 0 20px #4a7aff;
+.vite::before {
+    animation: textGradient 3.4s linear infinite;
+    background: linear-gradient(to right, #4a7aff, #16295e, #4a7aff);
+    background-size: 200%;
+    /* box-shadow: 0 0 20px #4a7aff; */
 }
 
-.postman {
-    box-shadow: 0 0 20px #ED6D3F;
+.postman::before {
+    animation: textGradient 2.9s linear infinite;
+    background: linear-gradient(to right, #ED6D3F, #5f2915, #ED6D3F);
+    background-size: 200%;
 }
 
-.git {
-    box-shadow: 0 0 20px #E84D31;
+.git::before {
+    animation: textGradient 2.7s linear infinite;
+    background: linear-gradient(to right, #E84D31, #51180e, #E84D31);
+    background-size: 200%;
 }
 
 .technologies__list--item:hover {

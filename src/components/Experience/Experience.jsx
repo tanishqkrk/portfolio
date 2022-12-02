@@ -1,16 +1,16 @@
 import React, { useEffect } from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 import ExperienceWork from './ExperienceWork/ExperienceWork'
 import './Experience.css'
 import './ExperienceWork/ExperienceWork.css'
 
 
 const Experience = () => {
-    useEffect(() => {
-        AOS.init();
-        AOS.refresh();
-    }, []);
+    // useEffect(() => {
+    // AOS.init();
+    // AOS.refresh();
+    // }, []);
     return (
         <div id='experience' className="experience">
             <div data-aos="fade-right" className="experience__title">

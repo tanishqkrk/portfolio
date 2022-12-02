@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 import Blog from './Blog/Blog'
 import './Blogs.css'
 const Blogs = () => {
-    useEffect(() => {
-        AOS.init();
-        AOS.refresh();
-    }, []);
+    // useEffect(() => {
+    // AOS.init();
+    // AOS.refresh();
+    // }, []);
     return (
         <div id='blogs' className="blogs">
             <div data-aos="fade-down" className="blogs__title">//Blogs</div>

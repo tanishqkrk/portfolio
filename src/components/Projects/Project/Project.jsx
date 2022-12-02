@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 
 const Project = ({ name, href, desc, github, img, position }) => {
-    useEffect(() => {
-        AOS.init();
-        AOS.refresh()
-    }, []);
+    // useEffect(() => {
+    // AOS.init();
+    // AOS.refresh();
+    // }, []);
     return (
         <div data-aos="fade-down" className="project">
             <div className={`project__data ${position}`} >

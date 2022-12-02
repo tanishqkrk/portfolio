@@ -1,16 +1,16 @@
 import React, { useEffect } from 'react'
 import './Hero.css'
 //import 
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 
 //useEffect
 
 const Hero = () => {
-    useEffect(() => {
-        AOS.init();
-        AOS.refresh();
-    }, []);
+    // useEffect(() => {
+    // AOS.init();
+    // AOS.refresh();
+    // }, []);
     return (
         <div data-aos="fade-up"
             data-aos-duration="1500" className='hero'>

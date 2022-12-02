@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 
 const GithubProject = ({ name, desc, github }) => {
-    useEffect(() => {
-        AOS.init();
-        AOS.refresh();
-    }, []);
+    // useEffect(() => {
+    // AOS.init();
+    // AOS.refresh();
+    // }, []);
     return (
         <div className='githubproject'>
             <div data-aos="fade-down" data-aos-duration="1000" className="githubproject__title">{name}</div>

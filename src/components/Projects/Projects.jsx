@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 import Project from './Project/Project'
 import './Project/Project.css'
 import './Projects.css'
@@ -8,10 +8,10 @@ import GithubProject from './GithubProject/GithubProject';
 import './GithubProject/GithubProject.css'
 
 const Projects = () => {
-    useEffect(() => {
-        AOS.init();
-        AOS.refresh();
-    }, []);
+    // useEffect(() => {
+    // AOS.init();
+    // AOS.refresh();
+    // }, []);
     return (
         <div id='projects' className="projects">
             <div data-aos="fade-down" className="projects__title">//Projects
