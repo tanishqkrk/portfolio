@@ -4,17 +4,26 @@
     align-items: center;
     flex-direction: column-reverse;
     position: absolute;
-    right: 10px;
+    right: 20px;
     top: 0;
+}
+
+.resume:hover .socials__line {
+    height: 12vh;
 }
 
 .socials__line {
     height: 10vh;
     width: 1px;
     background: white;
+    transition: .3s;
 }
 
 .resume__title {
+    margin: 20px 0;
+    z-index: 1;
+    color: white;
+    text-decoration: none;
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }

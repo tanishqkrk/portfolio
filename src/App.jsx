@@ -8,6 +8,7 @@ import Technologies from './components/Technologies/Technologies'
 import Blogs from './components/Blogs/Blogs'
 import Socials from './components/Socials/Socials'
 import Resume from './components/Resume/Resume'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Projects></Projects>
       <Technologies></Technologies>
       <Blogs></Blogs>
+      <Footer></Footer>
     </React.Fragment>
   )
 }

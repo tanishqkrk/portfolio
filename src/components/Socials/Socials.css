@@ -1,11 +1,15 @@
 .socials {
     position: absolute;
-    left: 10px;
+    left: 20px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     top: 0;
+}
+
+.socials:hover .socials__line {
+    height: 12vh;
 }
 
 .socials__links {
@@ -19,4 +23,16 @@
     height: 10vh;
     width: 1px;
     background: white;
+}
+
+.socials__links--mail {
+    margin: 20px 0;
+    z-index: 1;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    /* transform: scaleY(1); */
+    /* transform: scaleX(1); */
+    text-orientation: mixed;
+    color: white;
+    text-decoration: none;
 }
