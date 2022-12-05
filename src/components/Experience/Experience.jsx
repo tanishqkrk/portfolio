@@ -21,7 +21,7 @@ const Experience = () => {
                 <div className="experience__content--work">
                     <ExperienceWork title={'Front-end Intern'} firm={'getprobooking.com'} tenure={'March 2022 - Present'} link={'https://www.getprobooking.com/'}></ExperienceWork>
                     <ExperienceWork title={'Built a front-end website for'} firm={'SocioSavys'} tenure={'June 2022 - Aug 2022'}></ExperienceWork>
-                    <ExperienceWork title={'Developed a dashbaord for'} firm={'CookieYes'} tenure={'Oct 2022 - December 2022'}></ExperienceWork>
+                    <ExperienceWork title={'Developed a dashbaord for'} firm={'Cookiezen'} tenure={'Oct 2022 - December 2022'}></ExperienceWork>
                     <div className="experience__content--timeline"></div>
                 </div>
             </div>

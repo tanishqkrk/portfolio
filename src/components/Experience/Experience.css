@@ -85,7 +85,15 @@
 
 @media(max-width:640px) {
     .experience {
+        height: 70vh;
+    }
+
+    .experience {
         margin: 7rem 0;
+    }
+
+    .experience__content {
+        height: 100%;
     }
 
     .experience__title {
@@ -106,7 +114,7 @@
     }
 
     .experience__content--work {
-        height: 70%;
+        height: 100%;
     }
 }
 

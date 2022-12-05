@@ -152,4 +152,8 @@
         width: 60px;
         height: 60px;
     }
+
+    .technologies__list--item {
+        padding: .5rem;
+    }
 }
