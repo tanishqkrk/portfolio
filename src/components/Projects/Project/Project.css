@@ -94,3 +94,53 @@
     filter: none;
     /* transform: translate3d(5px); */
 }
+
+
+@media(max-width:1000px) {
+    .project__data {
+        width: 50%;
+        left: -20%;
+    }
+}
+
+@media(max-width:780px) {
+    .project__img {
+        width: 100%;
+    }
+
+    .project {
+        flex-direction: row;
+        width: 80%;
+    }
+
+    .project__data {
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: fit-content;
+    }
+}
+
+@media(max-width:640px) {
+    .project__img {
+        /* position: absolute; */
+    }
+
+    .project {
+        flex-direction: column-reverse;
+    }
+
+    .project__data--name {
+        font-size: 1.3rem;
+    }
+
+    .project__data {
+        /* position: absolute; */
+        height: 100%;
+    }
+
+    .project__data * {
+        margin: 6px 0;
+    }
+}

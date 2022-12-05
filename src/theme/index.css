@@ -3,7 +3,12 @@
 
 html {
   scroll-behavior: smooth;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
+}
+
+* {
+  /* margin: 0 !important; */
+  /* outline: 1px solid red; */
 }
 
 :root {
@@ -18,6 +23,7 @@ html {
   --linear-gradient-top: linear-gradient(180deg,
       var(--pink),
       var(--blue));
+  --heading: 2rem;
   /* --theme-gradient: linear-gradient() */
 }
 
@@ -64,14 +70,20 @@ html {
 }
 
 [data-aos] {
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 
 .aos-animate {
-  pointer-events: auto;
+  /* pointer-events: auto; */
 }
 
 .aos-init[data-aos][data-aos].aos-animate {
-  transform-style: preserve-3d;
-  transform: unset;
+  /* transform-style: preserve-3d; */
+  /* transform: unset; */
+}
+
+@media(max-width:540px) {
+  :root {
+    --heading: 1.6rem
+  }
 }

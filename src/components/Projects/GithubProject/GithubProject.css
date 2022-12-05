@@ -76,3 +76,30 @@
 .githubproject__github--link {
     color: white;
 }
+
+@media(max-width: 1200px) {
+    .github {
+        width: 80%;
+    }
+
+    .githubProjects__title {
+        margin-top: 3rem;
+    }
+}
+
+@media(max-width:960px) {
+    .github {
+        width: 90%;
+    }
+}
+
+@media(max-width:640px) {
+    .github {
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+    }
+
+    .githubproject {
+        width: 100%;
+    }
+}

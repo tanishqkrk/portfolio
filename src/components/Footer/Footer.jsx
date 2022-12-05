@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className='footer'>
-            <div data-aos="fade-down" className="footer__main">
+            <div className="footer__main">
                 <div className="footer__image"><img src="./headshot.jpg" alt="" className="footer__img--img" /></div>
                 <div className="footer__data">
                     <div className="footer__data--links">

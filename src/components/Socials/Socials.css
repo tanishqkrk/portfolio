@@ -36,3 +36,9 @@
     color: white;
     text-decoration: none;
 }
+
+@media(max-width:640px) {
+    .socials {
+        display: none;
+    }
+}

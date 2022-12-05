@@ -35,3 +35,9 @@
     /* right: 100%; */
     /* text-align: right; */
 }
+
+@media(max-width:640px) {
+    .experience__work--title {
+        font-size: 1.3rem;
+    }
+}

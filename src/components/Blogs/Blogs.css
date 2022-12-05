@@ -8,7 +8,8 @@
 }
 
 .blogs__title {
-    font-size: 2em;
+    font-size: var(--heading);
+
     font-weight: 600;
 }
 
@@ -24,4 +25,31 @@
     align-content: center;
     grid-gap: 50px;
     /* margin: 4rem 0; */
+}
+
+@media(max-width: 1200px) {
+    .blogs__blog {
+        width: 90%;
+    }
+
+    .blogs {
+        /* margin: 4rem 0; */
+    }
+
+    .blogs__blog {
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem 0;
+    }
+}
+
+@media(max-width:640px) {
+    .blog {
+        margin: 2rem 0;
+    }
+
+    .blogs__blog {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        /* padding: 2rem 0; */
+    }
 }

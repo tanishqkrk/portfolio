@@ -72,3 +72,9 @@
     margin: 10px 0;
     font-weight: 700;
 }
+
+@media(max-width: 640px) {
+    .blog::before {
+        padding: 0;
+    }
+}

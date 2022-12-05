@@ -27,3 +27,9 @@
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
+
+@media(max-width:640px) {
+    .resume {
+        display: none;
+    }
+}
