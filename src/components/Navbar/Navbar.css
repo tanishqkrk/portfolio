@@ -13,9 +13,31 @@
     display: none;
 }
 
+.hamburger {
+    display: none;
+}
+
+.hamburger__line1 {
+    width: 40px;
+    height: .5px;
+    background: white;
+    margin: 15px;
+}
+
+.hamburger__line2 {
+    width: 20px;
+    height: 1px;
+    margin: 15px;
+    background: white;
+}
+
 @media(max-width: 1000px) {
     .navbar__link {
         display: none;
+    }
+
+    .hamburger {
+        display: block;
     }
 
     .navbar__ham {
@@ -58,5 +80,8 @@
 
     }
 
-
+    .navbar {
+        justify-content: space-between;
+        padding: 10px;
+    }
 }

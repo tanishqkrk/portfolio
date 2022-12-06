@@ -28,7 +28,7 @@
     text-orientation: mixed;
 }
 
-@media(max-width:640px) {
+@media(max-width:1000px) {
     .resume {
         display: none;
     }
