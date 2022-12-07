@@ -11,4 +11,5 @@ body {
   background-size: 30px 30px;
   user-select: none;
   overflow-x: hidden;
+  /* position: relative; */
 }
