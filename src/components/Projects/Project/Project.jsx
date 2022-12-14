@@ -8,11 +8,11 @@ const Project = ({ name, href, desc, github, img, position }) => {
     // AOS.refresh();
     // }, []);
     return (
-        <div data-aos="fade-down" className="project">
-            <div className={`project__data ${position}`} >
-                <div data-aos="fade-left" data-aos-duration="500" className="project__data--name">{name}</div>
-                <div data-aos="fade-left" data-aos-duration="800" className="project__data--desc">{desc}</div>
-                <div data-aos="fade-left" data-aos-duration="1000" className="project__data--desc-links">
+        <div className="project">
+            <div data-aos="fade-left" className={`project__data ${position}`} >
+                <div data-aos-duration="500" className="project__data--name">{name}</div>
+                <div data-aos-duration="800" className="project__data--desc">{desc}</div>
+                <div data-aos-duration="1000" className="project__data--desc-links">
                     <div className="project__data--github"><a target={'_blank'} href={github} className="project__data--link project__data--github-link"><i className="fa-brands fa-github"></i></a></div>
                     <div className="project__data--link"><a target={'_blank'} href={href} className="project__data--link project__data--github-link"><i className="fa-solid fa-arrow-up-right-from-square"></i></a></div>
                 </div>

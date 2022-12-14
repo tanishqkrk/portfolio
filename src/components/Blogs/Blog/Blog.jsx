@@ -9,11 +9,11 @@ const Blog = ({ title, content, link }) => {
     // AOS.refresh();
     // }, []);
     return (
-        <div className="blog">
+        <div data-aos="fade-down" className="blog">
             <a target={'_blank'} href={link} className="blog__link">
-                <div data-aos="fade-down" data-aos-duration="800" className="blog__title">{title}</div>
-                <div data-aos="fade-down" data-aos-duration="900" className="blog__content">{content}</div>
-                <div data-aos="fade-down" data-aos-duration="1000" className="blog__read">Read more</div>
+                <div className="blog__title">{title}</div>
+                <div className="blog__content">{content}</div>
+                <div className="blog__read">Read more</div>
             </a>
         </div>
     )

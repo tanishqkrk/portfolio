@@ -8,8 +8,14 @@
 }
 
 .project__data {
+
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, .5);
+
     padding: 10px;
-    background-color: rgb(27, 27, 27);
+    /* background-color: rgb(27, 27, 27); */
     border-radius: 10px;
     left: -10%;
     top: 10%;
@@ -22,12 +28,22 @@
     text-align: center;
     /* z-index: 99 !important; */
     position: absolute;
-    box-shadow: 0px 5px 23px -5px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 5px 23px -5px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 5px 23px -5px rgba(0, 0, 0, 0.75);
-
+    /* box-shadow: 0px 5px 23px -5px rgba(0, 0, 0, 0.75); */
+    /* -webkit-box-shadow: 0px 5px 23px -5px rgba(0, 0, 0, 0.75); */
+    /* -moz-box-shadow: 0px 5px 23px -5px rgba(0, 0, 0, 0.75); */
+    transition: .3s !important;
     /* position: relative; */
 }
+
+.project:hover .project__data {
+    /* -webkit-backdrop-filter: blur(20px); */
+    /* backdrop-filter: blur(20px); */
+    /* background: rgb(27, 27, 27); */
+    /* backdrop-filter: none; */
+    /* filter: none; */
+    background: rgba(255, 255, 255, 0) !important;
+}
+
 
 .right {
     right: -10%;
@@ -59,11 +75,11 @@
     font-size: 1.2rem;
 }
 
-.project__data::before {
+.project__img::before {
     filter: blur(5px);
     border-radius: 10px;
     animation: textGradient 3s linear infinite;
-    padding: 5px;
+    /* padding: 5px; */
     z-index: -1 !important;
     content: '';
     width: 100%;
@@ -77,6 +93,9 @@
 .project__img {
     width: 80%;
     z-index: -5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project__img--img {
@@ -84,9 +103,9 @@
     width: 100%;
     border-radius: 10px;
     filter: brightness(.6);
-    box-shadow: 0px 5px 23px -5px rgba(255, 255, 255, 0.75);
-    -webkit-box-shadow: 0px 5px 23px -5px rgba(255, 255, 255, 0.75);
-    -moz-box-shadow: 0px 5px 23px -5px rgba(255, 255, 255, 0.75);
+    /* box-shadow: 0px 5px 23px -5px rgba(255, 255, 255, 0.75); */
+    /* -webkit-box-shadow: 0px 5px 23px -5px rgba(255, 255, 255, 0.75); */
+    /* -moz-box-shadow: 0px 5px 23px -5px rgba(255, 255, 255, 0.75); */
     transition: .3s;
 }
 
@@ -94,6 +113,7 @@
     filter: none;
     /* transform: translate3d(5px); */
 }
+
 
 
 @media(max-width:1000px) {

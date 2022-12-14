@@ -8,10 +8,10 @@ const GithubProject = ({ name, desc, github }) => {
     // AOS.refresh();
     // }, []);
     return (
-        <div className='githubproject'>
-            <div data-aos="fade-down" data-aos-duration="1000" className="githubproject__title">{name}</div>
-            <div data-aos="fade-down" data-aos-duration="1000" className="githubproject__desc">{desc}</div>
-            <div data-aos="fade-down" data-aos-duration="1000" className="githubproject__github"><a target={'_blank'} href={github} className="githubproject__github--link"><i className="fa-brands fa-github"></i></a></div>
+        <div data-aos="fade-down" className='githubproject'>
+            <div className="githubproject__title">{name}</div>
+            <div className="githubproject__desc">{desc}</div>
+            <div className="githubproject__github"><a target={'_blank'} href={github} className="githubproject__github--link"><i className="fa-brands fa-github"></i></a></div>
         </div>
     )
 }

@@ -33,7 +33,7 @@
 .bottom {
     bottom: 0%;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(220, 3, 255, 0.1) 100%);
-    animation: textGradient 3s linear infinite;
+    /* animation: textGradient 3s linear infinite; */
     height: 40vh;
     width: 100%;
     position: fixed;

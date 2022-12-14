@@ -9,6 +9,7 @@ html {
 * {
   /* margin: 0 !important; */
   /* outline: 1px solid red; */
+  /* transition: .3s; */
 }
 
 :root {
