@@ -41,34 +41,41 @@
     }
 
     .navbar__ham {
-        /* display: flex; */
+        display: flex;
+        display: none;
         position: absolute;
         top: 0;
+        right: 0;
         /* left: 0; */
-        width: 100%;
-        background: var(--background-color);
+        width: 60vw;
+        /* background: var(--background-color); */
+        background: grey;
         height: 100vh;
         z-index: 1;
         flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-end;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.2rem;
         /* transform: translateX(100%); */
     }
 
     .navbar__ham .navbar__link {
-        display: block;
+        /* display: block; */
         width: 100%;
+        margin: 20px 0;
         z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 
     .navbar__ham .navbar__link::after {
         content: '';
         z-index: -1;
-        width: 70vw;
-        height: 10px;
+        width: 80%;
+        height: 1px;
         background: var(--linear-gradient);
         background-size: 200%;
         border-radius: 50px;
