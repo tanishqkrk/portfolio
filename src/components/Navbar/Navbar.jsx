@@ -11,7 +11,7 @@ const Navbar = () => {
             <a href="#"> <img src="./opt 1.svg" alt="" className="navbar__logo" /></a>
             <NavbarLink title={'//  Technologies'} href={'#technologies'}></NavbarLink>
             <NavbarLink title={'//  Blogs'} href={'#blogs'}></NavbarLink>
-            <NavbarHam></NavbarHam>
+            {/* <NavbarHam></NavbarHam> */}
         </div >
     )
 }
