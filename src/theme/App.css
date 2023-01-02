@@ -7,10 +7,17 @@ body {
   color: var(--font-color);
   /* background-color: #000000; */
   opacity: 1;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-  /* background-image: linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, #0C0C0C 1px); */
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px); */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 2px), linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, #000000 2px);
   background-size: 30px 30px;
   user-select: none;
   overflow-x: hidden;
   /* position: relative; */
+}
+
+.app {
+  height: 100%;
+  width: 100%;
+  /* z-index: -100; */
+  /* background: white; */
 }
