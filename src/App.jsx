@@ -31,7 +31,7 @@ const App = () => {
 
 
   return (
-    <div ref={overlay} onMouseMove={hoverOverlay} className='app'>
+    <div ref={overlay} className='app'>
       <div ref={notification} className="notification">
         <h4>Disclaimer</h4>
         <p>This website uses features that are relatively new and advanced for some browser, please update your browser to latest version to experience completely.</p>
