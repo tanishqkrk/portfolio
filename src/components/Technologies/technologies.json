@@ -1,0 +1,42 @@
+[
+    {
+        "title": "JavaScript",
+        "src": "js.png",
+        "classname": "javascript"
+    },
+    {
+        "title": "React",
+        "src": "react.png",
+        "classname": "react"
+    },
+    {
+        "title": "jQuery",
+        "src": "jquery.png",
+        "classname": "jquery"
+    },
+    {
+        "title": "Bootstrap",
+        "src": "bootstrap.png",
+        "classname": "bootstrap"
+    },
+    {
+        "title": "Laravel",
+        "src": "laravel.png",
+        "classname": "laravel"
+    },
+    {
+        "title": "Vite",
+        "src": "vite.png",
+        "classname": "vite"
+    },
+    {
+        "title": "Postman",
+        "src": "postman.png",
+        "classname": "postman"
+    },
+    {
+        "title": "Git",
+        "src": "git.png",
+        "classname": "git"
+    }
+]

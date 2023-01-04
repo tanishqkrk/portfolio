@@ -9,19 +9,19 @@ const Footer = () => {
                 <div className="footer__data">
                     <div className="footer__data--links">
                         <div className="footer__data--links-social">
-                            <a target={'_blank'} data-aos="fade-right" href="https://www.instagram.com/tanishqkrk/" className="footer__data--link-link">Instagram</a>
-                            <a target={'_blank'} data-aos="fade-right" href="https://www.twitter.com/TanishqKaushal/" className="footer__data--link-link">Twitter</a>
-                            <a target={'_blank'} data-aos="fade-right" href="https://stackoverflow.com/users/17027654/tanishq-kr-kaushal" className="footer__data--link-link">Stack Overflow</a>
-                            <a target={'_blank'} data-aos="fade-right" href="https://www.linkedin.com/in/tanishq-kr-kaushal-835b0221b/" className="footer__data--link-link">Linkedin</a>
-                            <a target={'_blank'} data-aos="fade-right" href="https://github.com/tanishqkrk" className="footer__data--link-link">GitHub</a>
-                            <a target={'_blank'} data-aos="fade-right" href="https://dev.to/tanishqkrk" className="footer__data--link-link">Dev.to</a>
+                            <a target={'_blank'} href="https://www.instagram.com/tanishqkrk/" className="footer__data--link-link">Instagram</a>
+                            <a target={'_blank'} href="https://www.twitter.com/TanishqKaushal/" className="footer__data--link-link">Twitter</a>
+                            <a target={'_blank'} href="https://stackoverflow.com/users/17027654/tanishq-kr-kaushal" className="footer__data--link-link">Stack Overflow</a>
+                            <a target={'_blank'} href="https://www.linkedin.com/in/tanishq-kr-kaushal-835b0221b/" className="footer__data--link-link">Linkedin</a>
+                            <a target={'_blank'} href="https://github.com/tanishqkrk" className="footer__data--link-link">GitHub</a>
+                            <a target={'_blank'} href="https://dev.to/tanishqkrk" className="footer__data--link-link">Dev.to</a>
                         </div>
                         <div className="footer__data--links-page">
-                            <a data-aos="fade-right" href="" className="footer__data--link-link">Home</a>
-                            <a data-aos="fade-right" href="" className="footer__data--link-link">Experience</a>
-                            <a data-aos="fade-right" href="" className="footer__data--link-link">Projects</a>
-                            <a data-aos="fade-right" href="" className="footer__data--link-link">Technologies</a>
-                            <a data-aos="fade-right" href="" className="footer__data--link-link">Blogs</a>
+                            <a href="" className="footer__data--link-link">Home</a>
+                            <a href="" className="footer__data--link-link">Experience</a>
+                            <a href="" className="footer__data--link-link">Projects</a>
+                            <a href="" className="footer__data--link-link">Technologies</a>
+                            <a href="" className="footer__data--link-link">Blogs</a>
                         </div>
                     </div>
                 </div>

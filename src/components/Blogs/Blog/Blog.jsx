@@ -9,7 +9,7 @@ const Blog = ({ title, content, link }) => {
     // AOS.refresh();
     // }, []);
     return (
-        <div data-aos="fade-down" className="blog">
+        <div className="blog">
             <a target={'_blank'} href={link} className="blog__link">
                 <div className="blog__title">{title}</div>
                 <div className="blog__content">{content}</div>

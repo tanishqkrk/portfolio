@@ -11,9 +11,9 @@ const ExperienceWork = ({ title, firm, tenure, link }) => {
     return (
 
         <div className='experience__work'>
-            <div data-aos="fade-left" data-aos-duration="500" className="experience__work--title">{title}</div>
-            <div data-aos="fade-left" data-aos-duration="600"><a target={'_blank'} href={link} className="experience__work--firm">{firm}</a></div>
-            <div data-aos="fade-left" data-aos-duration="700" className="experience__work--tenure">({tenure})</div>
+            <div className="experience__work--title">{title}</div>
+            <div><a target={'_blank'} href={link} className="experience__work--firm">{firm}</a></div>
+            <div className="experience__work--tenure">({tenure})</div>
         </div>
     )
 }

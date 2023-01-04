@@ -8,7 +8,7 @@ const GithubProject = ({ name, desc, github }) => {
     // AOS.refresh();
     // }, []);
     return (
-        <div data-aos="fade-down" className='githubproject'>
+        <div className='githubproject'>
             <div className="githubproject__title">{name}</div>
             <div className="githubproject__desc">{desc}</div>
             <div className="githubproject__github"><a target={'_blank'} href={github} className="githubproject__github--link"><i className="fa-brands fa-github"></i></a></div>

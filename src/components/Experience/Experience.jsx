@@ -13,11 +13,11 @@ const Experience = () => {
     // }, []);
     return (
         <div id='experience' className="experience">
-            <div data-aos="fade-right" className="experience__title">
+            <div className="experience__title">
             //Experience
                 <div className="experience__desc">I've worked as a freelancer and an intern, and made dozens of features and web designs to fit various requirements.</div>
             </div>
-            <div className="experience__content" data-aos="fade-down" >
+            <div className="experience__content"  >
                 <div className="experience__content--work">
                     <ExperienceWork title={'Front-end Intern'} firm={'getprobooking.com'} tenure={'March 2022 - Present'} link={'https://www.getprobooking.com/'}></ExperienceWork>
                     <ExperienceWork title={'Built a front-end website for'} firm={'SocioSavys'} tenure={'June 2022 - Aug 2022'}></ExperienceWork>
