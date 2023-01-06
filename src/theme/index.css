@@ -13,6 +13,7 @@ html {
 }
 
 :root {
+  /* --background-color: #0C0C0C; */
   --background-color: #0C0C0C;
   --font-color: #FFFFFF;
   --blue: rgba(0, 48, 104, 1);

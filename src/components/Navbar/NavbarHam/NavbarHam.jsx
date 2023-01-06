@@ -1,11 +1,11 @@
 import NavbarLink from "../NavbarLink/NavbarLink";
 
-const NavbarHam = ({ openMenu, hamMenu }) => {
+const NavbarHam = ({ openMenu, hamMenu, hamIcon, line1, line2 }) => {
     return (
         <>
-            <div onClick={openMenu} className="hamburger">
-                <div className="hamburger__line1"></div>
-                <div className="hamburger__line2"></div>
+            <div ref={hamIcon} onClick={openMenu} className="hamburger">
+                <div ref={line1} className="hamburger__line1"></div>
+                <div ref={line2} className="hamburger__line2"></div>
             </div>
             <div ref={hamMenu} className="navbar__ham">
                 <NavbarLink title={'Projects'} href={'#projects'}></NavbarLink>
