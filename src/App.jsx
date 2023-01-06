@@ -13,6 +13,8 @@ import Footer from './components/Footer/Footer'
 const App = () => {
   const notification = useRef();
   const overlay = useRef();
+  const hamMenu = useRef();
+
   useEffect(() => {
     const timer = setTimeout(() => {
       notification.current.style.animation = 'disappear 8s'
@@ -30,6 +32,11 @@ const App = () => {
   }
 
 
+  const openMenu = () => {
+    hamMenu.current.classList.toggle('ham-on')
+  }
+
+
   return (
     <div ref={overlay} onMouseMove={hoverOverlay} className='app'>
       {/* <div className="alert">⚡THIS WEBSITE IS UNDER SOME DEVELOPMENT CHANGES, IF YOU FACE ANY DIFFICULTIES, THEY WILL BE FIXED SOON.</div> */}
@@ -37,7 +44,7 @@ const App = () => {
         <h4>Disclaimer</h4>
         <p>This website uses features that are relatively new and advanced for some browser, please update your browser to latest version to experience completely.</p>
       </div>
-      <Navbar />
+      <Navbar hamMenu={hamMenu} openMenu={openMenu} />
       <Socials />
       <Resume />
       <Hero />

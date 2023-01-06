@@ -15,6 +15,7 @@
 
 .hamburger {
     display: none;
+    z-index: 9999999999;
 }
 
 .hamburger__line1 {
@@ -32,6 +33,12 @@
 }
 
 @media(max-width: 1000px) {
+    .navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 999999;
+    }
+
     .navbar__link {
         display: none;
     }
@@ -42,22 +49,32 @@
 
     .navbar__ham {
         display: flex;
-        display: none;
-        position: absolute;
+        /* display: none; */
+        position: fixed;
         top: 0;
         right: 0;
         /* left: 0; */
-        width: 60vw;
-        /* background: var(--background-color); */
-        background: grey;
+        width: 50vw;
+        padding-top: 3em;
+        background: var(--background-color);
+        /* background: grey; */
         height: 100vh;
         z-index: 1;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-end;
         text-align: center;
-        font-size: 1.2rem;
-        /* transform: translateX(100%); */
+        font-size: 1.1rem;
+        transform: translateX(100%);
+        opacity: 0;
+        transition: .5s ease-in-out;
+        z-index: 9999;
+    }
+
+    .ham-on {
+        opacity: 1;
+        transform: translateX(0);
+        /* display: flex; */
     }
 
     .navbar__ham .navbar__link {
@@ -74,14 +91,15 @@
     .navbar__ham .navbar__link::after {
         content: '';
         z-index: -1;
-        width: 80%;
+        width: 50%;
         height: 1px;
         background: var(--linear-gradient);
         background-size: 200%;
         border-radius: 50px;
         position: absolute;
         bottom: -50%;
-        right: 0;
+        right: -50%;
+        transform: translate(50%, 50%);
         transition: .3s ease;
         animation: textGradient 3s linear infinite;
 
