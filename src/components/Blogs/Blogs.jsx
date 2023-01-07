@@ -4,12 +4,8 @@ import React, { useEffect } from 'react'
 import Blog from './Blog/Blog'
 import './Blogs.css'
 const Blogs = () => {
-    // useEffect(() => {
-    // AOS.init();
-    // AOS.refresh();
-    // }, []);
     return (
-        <div id='blogs' className="blogs">
+        <div data-scroll-section id='blogs' className="blogs">
             <div className="blogs__title">//Blogs</div>
             <div className="blogs__blog">
                 <Blog title={"What the hell is this Execution Context!?"} content={"JavaScript has quite the reputation for being the most popular language in the world, and 98% of world's websites use JavaScript as their main source of development for either front, end or both ends."} link={'https://dev.to/tanishqkrk/what-the-hell-is-this-execution-context-4bcc'} ></Blog>
