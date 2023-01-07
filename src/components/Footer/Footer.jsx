@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <footer data-scroll-section className='footer'>
             <div className="footer__main">
                 <div className="footer__image"><img src="./headshot.jpg" alt="" className="footer__img--img" /></div>
                 <div className="footer__data">
@@ -31,7 +31,7 @@ const Footer = () => {
                 <img className='footer__end--icon' src="./vite.png" alt="" />
                 <img className='footer__end--icon' src="./js.png" alt="" />
             </div>
-        </div>
+        </footer>
     )
 }
 

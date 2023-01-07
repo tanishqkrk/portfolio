@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import NavbarLink from './NavbarLink/NavbarLink'
 import './Navbar.css'
 import NavbarHam from './NavbarHam/NavbarHam'

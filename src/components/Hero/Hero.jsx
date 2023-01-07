@@ -13,7 +13,7 @@ const Hero = () => {
     // }, []);
     return (
         <React.Fragment>
-            <div
+            <div data-scroll-section
                 className='hero'>
                 Hi! I'm Tanishq Kaushal,
                 <span

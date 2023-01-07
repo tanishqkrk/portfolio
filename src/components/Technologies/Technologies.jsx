@@ -5,7 +5,7 @@ import Technology from './Technology'
 // console.log(technologies);
 const Technologies = () => {
     return (
-        <div className="technologies" id='technologies'>
+        <div data-scroll-section className="technologies" id='technologies'>
             <div className="technologies__title">//Technologies I use
                 <div className="technologies__desc">Having these languages/libraries/frameworks/tools at my disposal I built responsive and good looking web apps!</div>
             </div>

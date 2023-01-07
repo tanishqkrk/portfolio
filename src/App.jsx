@@ -9,6 +9,7 @@ import Blogs from './components/Blogs/Blogs'
 import Socials from './components/Socials/Socials'
 import Resume from './components/Resume/Resume'
 import Footer from './components/Footer/Footer'
+import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 
 const App = () => {
 
@@ -20,10 +21,6 @@ const App = () => {
   const hamIcon = useRef();
   const line1 = useRef();
   const line2 = useRef();
-
-
-
-
 
   const hoverOverlay = (e) => {
     let rect = overlay.current.getBoundingClientRect();
@@ -53,17 +50,27 @@ const App = () => {
   // scrollBackgroundOnNavbar()
 
   return (
-    <div ref={overlay} onMouseMove={hoverOverlay} className='app'>
-      <Navbar hamIcon={hamIcon} line1={line1} line2={line2} NavbarElement={NavbarElement} hamMenu={hamMenu} openMenu={openMenu} />
-      <Socials />
-      <Resume />
-      <Hero />
-      <Experience />
-      <Projects />
-      <Technologies />
-      <Blogs />
-      <Footer />
-    </div>
+    <LocomotiveScrollProvider
+      options={
+        {
+          smooth: true,
+        }
+      }
+      containerRef={containerRef}
+    >
+
+      <div data-scroll-container ref={containerRef} className='app'>
+        <Navbar hamIcon={hamIcon} line1={line1} line2={line2} NavbarElement={NavbarElement} hamMenu={hamMenu} openMenu={openMenu} />
+        <Socials />
+        <Resume />
+        <Hero />
+        <Experience />
+        <Projects />
+        <Technologies />
+        <Blogs />
+        <Footer />
+      </div>
+    </LocomotiveScrollProvider>
 
   )
 }

@@ -12,7 +12,7 @@ const Experience = () => {
     // AOS.refresh();
     // }, []);
     return (
-        <div id='experience' className="experience">
+        <div data-scroll-section id='experience' className="experience">
             <div className="experience__title">
             //Experience
                 <div className="experience__desc">I've worked as a freelancer and an intern, and made dozens of features and web designs to fit various requirements.</div>

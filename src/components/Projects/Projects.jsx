@@ -13,7 +13,7 @@ const Projects = () => {
     // AOS.refresh();
     // }, []);
     return (
-        <div id='projects' className="projects">
+        <div data-scroll-section id='projects' className="projects">
             <div className="projects__title">//Projects
                 <div className="projects__desc">I've developed a lot of personal side projects some, my favourites are as below:</div>
             </div>
