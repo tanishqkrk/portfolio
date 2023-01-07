@@ -11,6 +11,34 @@
     /* text-shadow: 0px 0px 150px rgba(255, 255, 255, 1); */
 }
 
+.hero h1 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.hero__title {
+    text-align: center;
+    /* display: grid; */
+    /* grid-template-rows: 1fr 1fr; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* width: 20%; */
+    /* font-size: 2em; */
+}
+
+.gradient1 {
+    width: 1100px;
+    height: 1100px;
+    z-index: 99;
+    position: absolute;
+    right: -50%;
+    top: 50%;
+    /* transform: translate(-50%, -50%); */
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--dim-blue) 0%, transparent 100%);
+}
+
 .hero__special {
     animation: textGradient 3s linear infinite;
     background: var(--linear-gradient);
@@ -18,7 +46,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     font-weight: 500;
 }
 
@@ -39,8 +67,22 @@
     width: 100%;
     position: fixed;
     bottom: 0;
+    /* animation: textGradient 3s infinite; */
+    background-size: 200%;
     /* display: none; */
     /* background-size: 200%; */
+    /* animation: motion 3s linear infinite; */
+}
+
+@keyframes motion {
+    0% {
+
+        /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(220, 3, 255, 0.1) 100%); */
+    }
+
+    100% {
+        /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, var(--blue) 100%); */
+    }
 }
 
 @media(max-width:640px) {

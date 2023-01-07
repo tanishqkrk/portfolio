@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 // import AOS from "aos";
 // import "aos/dist/aos.css";
 import ExperienceWork from './ExperienceWork/ExperienceWork'
@@ -12,7 +12,7 @@ const Experience = () => {
     // AOS.refresh();
     // }, []);
     return (
-        <div data-scroll-section id='experience' className="experience">
+        <div id='experience' className="experience">
             <div className="experience__title">
             //Experience
                 <div className="experience__desc">I've worked as a freelancer and an intern, and made dozens of features and web designs to fit various requirements.</div>
