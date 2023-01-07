@@ -9,9 +9,11 @@ import Blogs from './components/Blogs/Blogs'
 import Socials from './components/Socials/Socials'
 import Resume from './components/Resume/Resume'
 import Footer from './components/Footer/Footer'
+import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 
 const App = () => {
 
+  const containerRef = useRef(null)
   const notification = useRef();
   const overlay = useRef();
   const hamMenu = useRef();
@@ -22,12 +24,7 @@ const App = () => {
 
 
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      notification.current.style.animation = 'disappear 8s'
-    }, 3000)
-    return () => clearTimeout(timer)
-  })
+
 
   const hoverOverlay = (e) => {
     let rect = overlay.current.getBoundingClientRect();
@@ -57,22 +54,27 @@ const App = () => {
   // scrollBackgroundOnNavbar()
 
   return (
-    <div ref={overlay} onMouseMove={hoverOverlay} className='app'>
-      {/* <div className="alert">⚡THIS WEBSITE IS UNDER SOME DEVELOPMENT CHANGES, IF YOU FACE ANY DIFFICULTIES, THEY WILL BE FIXED SOON.</div> */}
-      <div ref={notification} className="notification">
-        <h4>Disclaimer</h4>
-        <p>This website uses features that are relatively new and advanced for some browser, please update your browser to latest version to experience completely.</p>
+    <LocomotiveScrollProvider options={
+      {
+        smooth: true,
+        // ... all available Locomotive Scroll instance options 
+      }
+    } containerRef={containerRef}
+    >
+
+      <div data-scroll-container ref={overlay} onMouseMove={hoverOverlay} className='app'>
+        <Navbar hamIcon={hamIcon} line1={line1} line2={line2} NavbarElement={NavbarElement} hamMenu={hamMenu} openMenu={openMenu} />
+        <Socials />
+        <Resume />
+        <Hero />
+        <Experience />
+        <Projects />
+        <Technologies />
+        <Blogs />
+        <Footer />
       </div>
-      <Navbar hamIcon={hamIcon} line1={line1} line2={line2} NavbarElement={NavbarElement} hamMenu={hamMenu} openMenu={openMenu} />
-      <Socials />
-      <Resume />
-      <Hero />
-      <Experience />
-      <Projects />
-      <Technologies />
-      <Blogs />
-      <Footer />
-    </div>
+    </LocomotiveScrollProvider>
+
   )
 }
 
