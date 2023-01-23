@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Vision Videos",
+        "href": "https://visionvideos.netlify.app/",
+        "desc": "Vision video player lets you watch your favorite videos ad-free!",
+        "github": "vision",
+        "img": "vision.jpg",
+        "position": ""
+    },
+    {
+        "name": "Password Generator",
+        "href": "https://tanishqkrk.github.io/password-generator",
+        "desc": "Generate passwords and provide your own parameters (Uppercase, Lowercase, Number and Symbols)",
+        "github": "password-generator",
+        "img": "pg.png",
+        "position": ""
+    },
+    {
+        "name": "IP Address Tracker",
+        "href": "https://tanishqkrk.github.io/IP-tracker",
+        "desc": "Track any IP address, get its location, vpn status and ISP",
+        "github": "IP-tracker",
+        "img": "ip-min.png",
+        "position": ""
+    }
+]
