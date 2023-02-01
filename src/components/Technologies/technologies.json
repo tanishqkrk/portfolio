@@ -1,40 +1,48 @@
 [
     {
+        "id": "js",
         "title": "JavaScript",
         "src": "js.png",
         "classname": "javascript"
     },
     {
+        "id": "react",
         "title": "React",
         "src": "react.png",
         "classname": "react"
     },
     {
+        "id": "jq",
         "title": "jQuery",
         "src": "jquery.png",
         "classname": "jquery"
     },
     {
+        "id": "bs",
         "title": "Bootstrap",
         "src": "bootstrap.png",
         "classname": "bootstrap"
     },
     {
+        "id": "lv",
         "title": "Laravel",
         "src": "laravel.png",
         "classname": "laravel"
     },
     {
+        "id": "vite",
         "title": "Vite",
         "src": "vite.png",
         "classname": "vite"
     },
     {
+        "id": "pm",
         "title": "Postman",
         "src": "postman.png",
         "classname": "postman"
     },
     {
+        "id": "git",
         "title": "Git",
         "src": "git.png",
         "classname": "git"

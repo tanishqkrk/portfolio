@@ -19,10 +19,10 @@ const Experience = () => {
             </div>
             <div className="experience__content"  >
                 <div className="experience__content--work">
-                    <ExperienceWork title={'Front-end Intern'} firm={'getprobooking.com'} tenure={'March 2022 - Present'} link={'https://www.getprobooking.com/'}></ExperienceWork>
-                    <ExperienceWork title={'Built a front-end website for'} firm={'SocioSavys'} tenure={'June 2022 - Aug 2022'}></ExperienceWork>
-                    <ExperienceWork title={'Developed a dashbaord for'} firm={'Cookiezen'} tenure={'Oct 2022 - December 2022'}></ExperienceWork>
-                    <div className="experience__content--timeline"></div>
+                    <ExperienceWork desc={"I'm a JavaScript intern at Probooking, I've learnt a lot about the JS language and along with that finding creative solutions for UI challanges while working in a team of developers."} tools={["/js.png", "jquery.png", "bootstrap.png"]} title={'Front-end Intern'} firm={'getprobooking.com'} tenure={'March 2022 - Present'} link={'https://www.getprobooking.com/'}></ExperienceWork>
+                    <ExperienceWork desc={"Developed a front-end website for US based social media startup, learned about client interaction and dealing with people."} tools={["/js.png"]} title={'Built a front-end website for'} firm={'SocioSavys'} tenure={'June 2022 - Aug 2022'}></ExperienceWork>
+                    <ExperienceWork desc={"Cookizen (Cookie_consent) is an open-source (as of Jan 2023) library for customize a cookie banner and embed into your own website with ease."} tools={["/js.png"]} title={'Developed a dashbaord for'} link={"https://github.com/uarora1997/cookie_consent_ui"} firm={'Cookiezen'} tenure={'Oct 2022 - December 2022'}></ExperienceWork>
+                    {/* <div className="experience__content--timeline"></div> */}
                 </div>
             </div>
         </div>

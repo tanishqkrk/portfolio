@@ -19,7 +19,7 @@
 .hamburger {
     display: none;
     z-index: 999999999999;
-    transition: .5s ease-in-out;
+    transition: .2s ease-in-out;
 
     /* margin: 15px; */
 }
@@ -29,7 +29,7 @@
     height: 1px;
     background: white;
     margin: 15px;
-    transition: .5s ease-in-out;
+    transition: .2s ease-in-out;
 
     /* rotate: 45deg; */
 }
@@ -39,7 +39,7 @@
     height: 1px;
     background: white;
     margin: 15px;
-    transition: .5s ease-in-out;
+    transition: .2s ease-in-out;
 
     /* rotate: -45deg; */
     /* width: 40px; */
@@ -105,7 +105,7 @@
         font-size: 1.1rem;
         transform: translateX(100%);
         opacity: 0;
-        transition: .5s ease-in-out;
+        transition: .2s ease-in-out;
         z-index: 9999;
         overflow-y: scroll;
     }
@@ -147,5 +147,11 @@
     .navbar {
         justify-content: space-between;
         padding: 10px;
+    }
+}
+
+@media(max-width: 500px) {
+    .navbar__ham {
+        width: 80vw;
     }
 }

@@ -12,7 +12,7 @@ const Technologies = () => {
             <div className="technologies__list">
                 {
                     technologies.map(
-                        (tech) => (<Technology title={tech.title} src={tech.src} classname={tech.classname} />)
+                        (tech) => (<Technology key={tech.id} title={tech.title} src={tech.src} classname={tech.classname} />)
                     )
                 }
             </div>
