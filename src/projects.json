@@ -1,5 +1,20 @@
 [
     {
+        "name": "Sperse Chat (Beta)",
+        "href": "https://sperse.netlify.app/",
+        "desc": "Sperse chat is an open-source free to use chat application, it is still in beta so some features are still in development and you can expect some minor bugs here and there.",
+        "github": "sperse",
+        "img": "sperse.jpg",
+        "position": "",
+        "tools": [
+            "react.png",
+            "firebase.png",
+            "js.png",
+            "postman.png",
+            "vite.png"
+        ]
+    },
+    {
         "name": "Vision Videos",
         "href": "https://visionvideos.netlify.app/",
         "desc": "Vision video player lets you watch your favorite videos ad-free!",
