@@ -20,7 +20,7 @@ const Projects = () => {
             </div>
             <div className="projects__work">
                 {
-                    projects.map(project => <Project name={project.name} desc={project.desc} github={`https://github.com/tanishqkrk/${project.github}`} img={`./${project.img}`} href={project.href} ></Project>)
+                    projects.map(project => <Project tools={project.tools} name={project.name} desc={project.desc} github={`https://github.com/tanishqkrk/${project.github}`} img={`./${project.img}`} href={project.href} ></Project>)
                 }
 
 

@@ -5,7 +5,13 @@
         "desc": "Vision video player lets you watch your favorite videos ad-free!",
         "github": "vision",
         "img": "vision.jpg",
-        "position": ""
+        "position": "",
+        "tools": [
+            "react.png",
+            "js.png",
+            "postman.png",
+            "vite.png"
+        ]
     },
     {
         "name": "Password Generator",
@@ -13,7 +19,11 @@
         "desc": "Generate passwords and provide your own parameters (Uppercase, Lowercase, Number and Symbols)",
         "github": "password-generator",
         "img": "pg.png",
-        "position": ""
+        "position": "",
+        "tools": [
+            "js.png",
+            "postman.png"
+        ]
     },
     {
         "name": "IP Address Tracker",
@@ -21,6 +31,10 @@
         "desc": "Track any IP address, get its location, vpn status and ISP",
         "github": "IP-tracker",
         "img": "ip-min.png",
-        "position": ""
+        "position": "",
+        "tools": [
+            "js.png",
+            "postman.png"
+        ]
     }
 ]
