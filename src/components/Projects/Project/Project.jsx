@@ -7,7 +7,7 @@ const Project = ({ name, href, desc, github, img, position, tools }) => {
     // AOS.init();
     // AOS.refresh();
     // }, []);
-    console.log(tools);
+    // console.log(tools);
     return (
         <div className="project">
             <div className={`project__data ${position}`} >

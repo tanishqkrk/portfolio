@@ -28,15 +28,47 @@
 }
 
 .gradient1 {
-    width: 1100px;
-    height: 1100px;
-    z-index: 99;
-    position: absolute;
-    right: -50%;
-    top: 50%;
+    width: 1200px;
+    height: 900px;
+    z-index: -1000000;
+    position: fixed;
+    right: 50%;
+    top: -100%;
     /* transform: translate(-50%, -50%); */
     border-radius: 50%;
-    background: radial-gradient(circle, var(--dim-blue) 0%, transparent 100%);
+    filter: blur(200px);
+    /* background: var(--blue); */
+    background: radial-gradient(circle, var(--dim-blue) 0%, var(--pink) 100%);
+    transition: 3s;
+
+    /* animation: rotate 20s linear infinite; */
+
+}
+
+.gradient2 {
+    width: 1200px;
+    height: 900px;
+    z-index: -100000000000;
+    position: fixed;
+    left: 50%;
+    bottom: -100%;
+    /* transform: translate(-50%, -50%); */
+    border-radius: 50%;
+    filter: blur(200px);
+    /* background: var(--blue); */
+    background: radial-gradient(circle, var(--dim-pink) 0%, var(--blue) 100%);
+    transition: .3s;
+    /* animation: rotate 20s linear infinite; */
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg) translateY(-100vh);
+    }
+
+    100% {
+        transform: rotate(360deg) translateY(0);
+    }
 }
 
 .hero__special {

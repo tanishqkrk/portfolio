@@ -15,6 +15,8 @@ const Projects = () => {
     // }, []);
     return (
         <div id='projects' className="projects">
+            {/* <div className="projectsgradient1"></div> */}
+            {/* <div className="projectsgradient2"></div> */}
             <div className="projects__title">//Projects
                 <div className="projects__desc">I've developed a lot of personal side projects some, my favourites are as below:</div>
             </div>

@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className="footer__main">
-                <div className="footer__image"><img src="./headshot.jpg" alt="" className="footer__img--img" /></div>
+                <div className="footer__image"><img src="/tanishqkrk-pixel.png" alt="" className="footer__img--img" /></div>
                 <div className="footer__data">
                     <div className="footer__data--links">
                         <div className="footer__data--links-social">
