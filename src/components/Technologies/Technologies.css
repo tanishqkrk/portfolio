@@ -75,6 +75,13 @@ h3 {
     border: 1px solid #EFD81D;
 }
 
+.typescript {
+    /* animation: textGradient 2s linear infinite; */
+    /* background: linear-gradient(to right, #EFD81D, #716400, #EFD81D); */
+    /* background-size: 200%; */
+    border: 1px solid #007ACC;
+}
+
 .react {
     /* animation: textGradient 4s linear infinite; */
     /* background: linear-gradient(to right, #00CCFF, #003c4b, #00CCFF); */

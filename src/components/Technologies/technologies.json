@@ -12,6 +12,12 @@
         "classname": "react"
     },
     {
+        "id": "ts",
+        "title": "TypeScript",
+        "src": "ts.png",
+        "classname": "typescript"
+    },
+    {
         "id": "jq",
         "title": "jQuery",
         "src": "jquery.png",
