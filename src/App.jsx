@@ -12,7 +12,8 @@ import Footer from './components/Footer/Footer'
 
 
 const App = () => {
-  const [scrollCapture, setScrollCapture] = useState(0)
+  let [scrollCaptureI, setScrollCaptureI] = useState(0)
+  let [scrollCaptureJ, setScrollCaptureJ] = useState(0)
   const overlay = useRef();
   const hamMenu = useRef();
   const NavbarElement = useRef();
@@ -21,6 +22,14 @@ const App = () => {
   const line2 = useRef();
   const gradienBlob1 = useRef();
   const gradienBlob2 = useRef();
+  const gradienBlob3 = useRef();
+  const gradienBlob4 = useRef();
+  const gradienBlob5 = useRef();
+  const gradienBlob6 = useRef();
+  const gradienBlob7 = useRef();
+  const gradienBlob8 = useRef();
+  const gradienBlob9 = useRef();
+  const gradienBlob10 = useRef();
 
   const hoverOverlay = (e) => {
     let rect = overlay.current.getBoundingClientRect();
@@ -40,33 +49,46 @@ const App = () => {
 
   const scrollBackgroundOnNavbar = () => {
     if (document.body.getBoundingClientRect().top < -200) {
-      NavbarElement.current.style.background = 'var(--background-color)'
+      // NavbarElement.current.style.background = 'var(--background-color)'
+      NavbarElement.current.style.backdropFilter = 'blur(5px)'
     }
     else if (document.body.getBoundingClientRect().top >= 0) {
-      NavbarElement.current.style.background = 'transparent'
+      // NavbarElement.current.style.background = 'transparent'
+      NavbarElement.current.style.backdropFilter = 'blur(0)'
     }
   }
   window.addEventListener('scroll', scrollBackgroundOnNavbar)
   // scrollBackgroundOnNavbar()
 
-  // ! Develop a feature to rotate the gradient blobs on scroll (onWheel vs onScroll)
+  // TODO Develop a feature to rotate the gradient blobs on scroll (onWheel vs onScroll)
   // ? onWheel={rotate}
   const rotate = () => {
-    // gradienBlob1.current.style.transform = `rotate(${360}deg)`
-    // gradienBlob2.current.style.transform = `rotate(${360}deg)`
+    setScrollCaptureI(150)
+    setScrollCaptureJ(150)
+    gradienBlob1.current.style.transform = `rotate(${scrollCaptureI}deg)`
+    gradienBlob2.current.style.transform = `rotate(${scrollCaptureJ}deg)`
   }
-
+  // onMouseMove={hoverOverlay}
   return (
-    <div ref={overlay} onMouseMove={hoverOverlay} className='app' >
+    <div ref={overlay} className='app' >
+      <div ref={gradienBlob1} className="gradient1"></div>
+      <div ref={gradienBlob2} className="gradient2"></div>
       <Navbar hamIcon={hamIcon} line1={line1} line2={line2} NavbarElement={NavbarElement} hamMenu={hamMenu} openMenu={openMenu} />
       <Socials />
       <Resume />
-      <Hero gradienBlob1={gradienBlob1} gradienBlob2={gradienBlob2} />
+      <Hero />
       <Experience />
       <Projects />
+      <div ref={gradienBlob3} className="gradient3"></div>
+      <div ref={gradienBlob4} className="gradient4"></div>
       <Technologies />
+      <div ref={gradienBlob5} className="gradient5"></div>
+      <div ref={gradienBlob6} className="gradient6"></div>
       <Blogs />
+      <div ref={gradienBlob7} className="gradient7"></div>
+      <div ref={gradienBlob8} className="gradient8"></div>
       <Footer />
+      <div ref={gradienBlob9} className="gradient9"></div>
     </div>
 
   )

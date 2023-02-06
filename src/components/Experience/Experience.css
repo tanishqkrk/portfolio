@@ -78,7 +78,7 @@
     }
 
     .experience__content {
-        height: 100vh;
+        /* height: 100vh; */
     }
 
     .experience__content--work {

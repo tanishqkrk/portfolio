@@ -26,7 +26,6 @@ html {
       var(--pink),
       var(--blue));
   --linear-gradient-top: linear-gradient(0deg, var(--blue), var(--pink), var(--blue));
-
   --heading: 2rem;
   /* --theme-gradient: linear-gradient() */
 }
