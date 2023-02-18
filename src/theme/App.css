@@ -30,6 +30,12 @@ body {
   /* background: white; */
   overflow: hidden;
   position: relative;
+  /* backdrop-filter: blur(1px); */
+}
+
+.blur {
+  /* backdrop-filter: blur(5px); */
+
 }
 
 .notification {
@@ -149,7 +155,7 @@ body {
 
 }
 
-.gradient2 {
+.gradient4 {
   width: 800px;
   height: 800px;
   z-index: -100000000000;
@@ -165,7 +171,7 @@ body {
   /* animation: rotate 20s linear infinite; */
 }
 
-.gradient3 {
+.gradient5 {
   width: 1200px;
   height: 900px;
   z-index: -1000000;
@@ -184,7 +190,7 @@ body {
 
 }
 
-.gradient4 {
+.gradient2 {
   width: 1200px;
   height: 900px;
   z-index: -100000000000;
@@ -202,7 +208,7 @@ body {
   /* animation: rotate 20s linear infinite; */
 }
 
-.gradient5 {
+.gradient3 {
   width: 1200px;
   height: 900px;
   z-index: -1000000;
@@ -292,6 +298,12 @@ body {
   /* animation: rotate 20s linear infinite; */
 }
 
+.gradient {
+  z-index: -89;
+  animation: blob 20s linear infinite;
+  transition: .3s;
+}
+
 @keyframes rotate {
   0% {
     transform: rotate(0deg) translateY(-100vh);
@@ -299,5 +311,19 @@ body {
 
   100% {
     transform: rotate(360deg) translateY(0);
+  }
+}
+
+@keyframes blob {
+  0% {
+    transform: rotate(0deg) translate(70%, 60%);
+    /* border-radius: 150%; */
+  }
+
+
+
+  100% {
+    transform: rotate(360deg) translate(50%, 80%);
+    /* border-radius: 250%; */
   }
 }
