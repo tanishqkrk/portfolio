@@ -10,7 +10,6 @@ import Socials from './components/Socials/Socials'
 import Resume from './components/Resume/Resume'
 import Footer from './components/Footer/Footer'
 
-
 const App = () => {
   let [scrollCaptureI, setScrollCaptureI] = useState(0)
   let [scrollCaptureJ, setScrollCaptureJ] = useState(0)
@@ -57,7 +56,7 @@ const App = () => {
       NavbarElement.current.style.backdropFilter = 'blur(0)'
     }
   }
-  window.addEventListener('scroll', scrollBackgroundOnNavbar)
+  // window.addEventListener('scroll', scrollBackgroundOnNavbar)
   // scrollBackgroundOnNavbar()
 
   // TODO Develop a feature to rotate the gradient blobs on scroll (onWheel vs onScroll)
@@ -74,8 +73,8 @@ const App = () => {
       <div ref={gradienBlob1} className="gradient1 gradient"></div>
       <div ref={gradienBlob2} className="gradient2 gradient"></div>
       <Navbar hamIcon={hamIcon} line1={line1} line2={line2} NavbarElement={NavbarElement} hamMenu={hamMenu} openMenu={openMenu} />
-      <Socials />
-      <Resume />
+      {/* <Socials /> */}
+      {/* <Resume /> */}
       <Hero />
       <Experience />
       <Projects />
