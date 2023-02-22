@@ -16,7 +16,7 @@ const Hero = ({ gradienBlob1, gradienBlob2 }) => {
                 </div>
                 <div className="hero__title">
                     <h1 className='hero__title--text'>Hi! I'm <br /> Tanishq Kaushal,</h1>
-                    <span className='hero__special hero__title--text'> A front-end <br /> web engineer</span>
+                    <span className='hero__special hero__title--text'> A front-end <div className='hero__special--sub'> web engineer</div></span>
                 </div>
                 {/* <div className='hero__bottom'>Wrote over 5000+ lines of code 🚀</div> */}
                 <a href='./resume.pdf' download={'./resume.pdf'} className="hero__resume--title">Download Resume</a>

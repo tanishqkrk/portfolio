@@ -47,7 +47,7 @@
 
 .hero__special {
     position: relative;
-    animation: textGradient 3s linear infinite;
+    animation: textGradient 5s linear infinite;
     background: var(--linear-gradient);
     background-size: 200%;
     background-clip: text;
@@ -61,6 +61,17 @@
     display: block;
     font-size: 2em;
     color: white;
+}
+
+.hero__special--sub {
+    position: relative;
+    animation: textGradient 5s linear infinite;
+    animation-delay: 1s;
+    background: var(--linear-gradient);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hero__bottom {
