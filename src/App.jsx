@@ -35,7 +35,7 @@ const App = () => {
     let mouseX = e.clientX - rect.left;
     let mouseY = e.clientY - rect.top;
     overlay.current.style.opacity = `1`;
-    overlay.current.style.background = `radial-gradient(circle at ${mouseX}px ${mouseY}px, rgba(255,255,255,0.04) 0%, transparent calc(6% + 0px)) no-repeat border-box border-box`;
+    overlay.current.style.background = `radial-gradient(circle at ${mouseX}px ${mouseY}px, rgba(255,255,255,0.04) 0%, transparent calc(4% + 0px)) no-repeat border-box border-box`;
     // console.log(1)
   }
 
@@ -56,7 +56,12 @@ const App = () => {
       NavbarElement.current.style.backdropFilter = 'blur(0)'
     }
   }
-  // window.addEventListener('scroll', scrollBackgroundOnNavbar)
+
+  useEffect(() => {
+    window.addEventListener('scroll', scrollBackgroundOnNavbar)
+
+  }, [])
+
   // scrollBackgroundOnNavbar()
 
   // TODO Develop a feature to rotate the gradient blobs on scroll (onWheel vs onScroll)
@@ -70,6 +75,7 @@ const App = () => {
   // onMouseMove={hoverOverlay}
   return (
     <div ref={overlay} className='app' >
+      {/* <div ref={gradienBlob9} className="gradient1"></div> */}
       <div ref={gradienBlob1} className="gradient1 gradient"></div>
       <div ref={gradienBlob2} className="gradient2 gradient"></div>
       <Navbar hamIcon={hamIcon} line1={line1} line2={line2} NavbarElement={NavbarElement} hamMenu={hamMenu} openMenu={openMenu} />
@@ -78,16 +84,10 @@ const App = () => {
       <Hero />
       <Experience />
       <Projects />
-      <div ref={gradienBlob3} className="gradient3 gradient"></div>
-      <div ref={gradienBlob4} className="gradient4 gradient"></div>
       <Technologies />
-      <div ref={gradienBlob5} className="gradient5 gradient"></div>
-      <div ref={gradienBlob6} className="gradient6 gradient"></div>
       <Blogs />
-      <div ref={gradienBlob7} className="gradient7 gradient"></div>
-      <div ref={gradienBlob8} className="gradient8 gradient"></div>
       <Footer />
-      <div ref={gradienBlob9} className="gradient9 "></div>
+      {/* <div ref={gradienBlob9} className="gradient9 "></div> */}
     </div>
 
   )

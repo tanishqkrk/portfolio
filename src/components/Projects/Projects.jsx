@@ -17,9 +17,8 @@ const Projects = () => {
         <div id='projects' className="projects">
             {/* <div className="projectsgradient1"></div> */}
             {/* <div className="projectsgradient2"></div> */}
-            <div className="projects__title">//Projects
-                <div className="projects__desc">I've developed a lot of personal side projects some, my favourites are as below:</div>
-            </div>
+            <div className="projects__title heading">//Projects</div>
+            <div className="projects__desc">I've developed a lot of personal side projects some, my favourites are as below:</div>
             <div className="projects__work">
                 {
                     projects.map(project => <Project tools={project.tools} name={project.name} desc={project.desc} github={`https://github.com/tanishqkrk/${project.github}`} img={`./${project.img}`} href={project.href} ></Project>)

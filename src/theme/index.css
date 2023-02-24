@@ -30,6 +30,8 @@ html {
 
   --linear-gradient-top: linear-gradient(0deg, var(--blue), var(--pink), var(--blue));
   --heading: 2rem;
+  --primary-font: 'Gloock', serif;
+  --secondary-font: 'Syne', sans-serif;
   /* --theme-gradient: linear-gradient() */
 }
 
@@ -107,4 +109,10 @@ html {
   :root {
     --heading: 1.6rem
   }
+}
+
+.heading {
+  font-family: var(--primary-font);
+  font-size: 2.5em;
+  letter-spacing: 3px;
 }

@@ -4,8 +4,7 @@ body {
   /* font-family: 'Inter', sans-serif; */
   font-family: 'Syne', sans-serif;
   /* font-family: 'Playfair Display', serif; */
-  background-color: rgb(1, 1, 1);
-
+  background-color: var(--background-color);
   color: var(--font-color);
   opacity: 1;
   background-image: linear-gradient(rgba(255, 255, 255, 0.09) 1px, transparent 1px), linear-gradient(to right, rgba(255, 255, 255, 0.09) 1px, transparent 1px);
@@ -134,11 +133,11 @@ body {
 }
 
 .gradient1 {
-  width: 1200px;
-  height: 900px;
+  width: 100vw;
+  height: 400px;
   /* z-index: -1000000; */
   position: absolute;
-  left: -40%;
+  left: 0%;
   top: -10%;
   /* transform: translate(-50%, -50%); */
   border-radius: 50%;

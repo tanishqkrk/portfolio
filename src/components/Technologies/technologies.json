@@ -30,27 +30,33 @@
         "classname": "bootstrap"
     },
     {
-        "id": "lv",
-        "title": "Laravel",
-        "src": "laravel.png",
-        "classname": "laravel"
+        "id": "py",
+        "title": "Python",
+        "src": "python.png",
+        "classname": "python"
     },
     {
-        "id": "vite",
-        "title": "Vite",
-        "src": "vite.png",
-        "classname": "vite"
+        "id": "kt",
+        "title": "Kotlin",
+        "src": "kotlin.png",
+        "classname": "kotlin"
     },
     {
-        "id": "pm",
-        "title": "Postman",
-        "src": "postman.png",
-        "classname": "postman"
+        "id": "vue",
+        "title": "Vue",
+        "src": "vue.png",
+        "classname": "vue"
     },
     {
-        "id": "git",
-        "title": "Git",
-        "src": "git.png",
-        "classname": "git"
+        "id": "tw",
+        "title": "Tailwind",
+        "src": "tailwind.png",
+        "classname": "tailwind"
+    },
+    {
+        "id": "vt",
+        "title": "Vuetify",
+        "src": "vuetify.png",
+        "classname": "vuetify"
     }
 ]

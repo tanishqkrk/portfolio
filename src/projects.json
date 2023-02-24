@@ -2,7 +2,7 @@
     {
         "name": "Sperse Chat (Beta)",
         "href": "https://sperse.netlify.app/",
-        "desc": "Sperse chat is an open-source free to use chat application, it is still in beta so some features are still in development and you can expect some minor bugs here and there.",
+        "desc": "FOSS Chat app for everyone!",
         "github": "sperse",
         "img": "sperse.jpg",
         "position": "",
@@ -26,18 +26,6 @@
             "js.png",
             "postman.png",
             "vite.png"
-        ]
-    },
-    {
-        "name": "Password Generator",
-        "href": "https://tanishqkrk.github.io/password-generator",
-        "desc": "Generate passwords and provide your own parameters (Uppercase, Lowercase, Number and Symbols)",
-        "github": "password-generator",
-        "img": "pg.png",
-        "position": "",
-        "tools": [
-            "js.png",
-            "postman.png"
         ]
     },
     {

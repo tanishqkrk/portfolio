@@ -55,6 +55,7 @@
     .experience__work--title {
         font-size: 1.3rem;
     }
+
 }
 
 .mainInfo {
@@ -140,5 +141,15 @@
 @media(max-width: 650px) {
     .experience__work-smaller {
         width: 90%;
+    }
+
+    .experience__work-smaller {
+        padding-left: 50px;
+    }
+
+    .experience__img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
     }
 }

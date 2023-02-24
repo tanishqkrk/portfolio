@@ -24,8 +24,8 @@
     font-family: 'Syne', sans-serif;
     position: absolute;
     bottom: 10px;
-    right: 0;
-    z-index: 99;
+    right: 10px;
+    z-index: 9999999999;
     display: flex;
     justify-content: end;
     column-gap: 40px;
@@ -42,7 +42,7 @@
     margin: 0;
     font-size: 2em;
     font-weight: 100;
-    z-index: 99999;
+    z-index: 99;
 }
 
 .hero__special {

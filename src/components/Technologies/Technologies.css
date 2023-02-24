@@ -1,6 +1,6 @@
 .technologies {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin: 4rem 0;
     /* width: 100%; */
@@ -9,7 +9,7 @@
 .technologies__title {
     font-size: var(--heading);
     font-weight: 600;
-    width: 50%;
+    width: 30%;
     text-align: left;
 }
 
@@ -18,14 +18,16 @@
     font-weight: 400;
     text-align: left;
     margin: 1rem 0;
-    width: 70%;
+    width: 80%;
+    font-family: var(--secondary-font);
+    letter-spacing: initial;
 }
 
 .technologies__list {
     /* width: 0%; */
-    display: grid;
-    grid-gap: 50px;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* display: grid; */
+    /* grid-gap: 50px; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
 .technologies__list--item--img {
@@ -36,8 +38,8 @@
 
 .technologies__list--item {
     /* width: 100%; */
-    width: 100px;
-    height: 100px;
+    /* width: 100px; */
+    /* height: 100px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,11 +47,30 @@
     background: rgba(27, 27, 27, .2);
     border-radius: 10px;
     padding: 12px !important;
-    transition: .3s !important;
+    transition: .1s !important;
     position: relative;
-
+    background: rgba(27, 27, 27);
     /* margin: 0px; */
 }
+
+
+.technologies__list--item:hover {
+    /* background: rgba(27, 27, 27); */
+    /* background: transparent; */
+    transform: scale(1.02);
+    /* box-shadow: 0 0 10px white; */
+    /* transform: translateY(-5px) !important; */
+}
+
+.technologies__list:hover div {
+    filter: brightness(.5);
+}
+
+.technologies__list div:hover {
+    filter: brightness(1);
+}
+
+
 
 h3 {
     margin: 10px 0;
@@ -143,22 +164,89 @@ h3 {
 
 }
 
-.technologies__list--item:hover {
-    background: rgba(27, 27, 27);
-    /* box-shadow: 0 0 10px white; */
-    /* transform: translateY(-5px) !important; */
+
+.vue {
+    border: 1px solid #41b883;
+}
+
+.tailwind {
+    border: 1px solid #06b6d4;
+}
+
+.vuetify {
+    border: 1px solid #afdeff;
+}
+
+.kotlin {
+    border: 1px solid #ec7d30;
+}
+
+.python {
+    border: 1px solid #ffd344;
+}
+
+.technologies__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* gap: 0px 0px; */
+    width: 50%;
+    gap: 10px;
+    grid-auto-flow: row;
+}
+
+.react {
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.javascript {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.python {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.typescript {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+.Kotlin {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.kotlin {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.jquery {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.bootstrap {
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+.tailwind {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.vuetify {
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+.vue {
+    grid-area: 3 / 3 / 5 / 5;
 }
 
 @media(max-width: 1200px) {
+    .technologies {
+        flex-direction: column;
+    }
+
     .technologies__list--item--img {
         width: 80px;
         height: 80px;
-    }
-}
-
-@media(max-width:960px) {
-    .technologies {
-        flex-direction: column;
     }
 
     .technologies__title {
@@ -170,7 +258,14 @@ h3 {
         width: 100%;
         text-align: center;
     }
+
+    .technologies__list {
+        width: 92%;
+    }
+
 }
+
+@media(max-width:960px) {}
 
 @media(max-width:640px) {
     .technologies__title {
@@ -180,10 +275,16 @@ h3 {
 
 @media(max-width:540px) {
     .technologies__list {
-        width: 100%;
-        grid-gap: 15px;
-        justify-items: center;
-        align-content: center;
+        /* width: 100%; */
+        /* grid-gap: 15px; */
+        /* justify-items: center; */
+        /* align-content: center; */
+    }
+
+    .technologies__list {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .technologies__list--item--img {
@@ -193,9 +294,55 @@ h3 {
 
     .technologies__list--item {
         padding: .5rem;
-        width: 80px;
-        height: 80px;
+        /* width: 80px; */
+        /* height: 80px; */
     }
+
+    .react {
+        grid-area: initial;
+    }
+
+    .javascript {
+        grid-area: initial;
+    }
+
+    .python {
+        grid-area: initial;
+    }
+
+    .typescript {
+        grid-area: initial;
+    }
+
+    .Kotlin {
+        grid-area: initial;
+    }
+
+    .kotlin {
+        grid-area: initial;
+    }
+
+    .jquery {
+        grid-area: initial;
+    }
+
+    .bootstrap {
+        grid-area: initial;
+    }
+
+    .tailwind {
+        grid-area: initial;
+    }
+
+    .vuetify {
+        grid-area: initial;
+    }
+
+    .vue {
+        grid-area: initial;
+    }
+
+
 }
 
 @media(max-width:350px) {

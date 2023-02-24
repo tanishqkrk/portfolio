@@ -6,7 +6,7 @@ import Technology from './Technology'
 const Technologies = () => {
     return (
         <div className="technologies" id='technologies'>
-            <div className="technologies__title">//Technologies I use
+            <div className="technologies__title heading">//Technologies I use
                 <div className="technologies__desc">Having these languages/libraries/frameworks/tools at my disposal I built responsive and good looking web apps!</div>
             </div>
             <div className="technologies__list">
