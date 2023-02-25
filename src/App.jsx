@@ -37,7 +37,6 @@ const App = () => {
     // let mouseY = e.clientY - rect.top;
     // overlay.current.style.opacity = `1`;
     // overlay.current.style.background = `radial-gradient(circle at ${mouseX}px ${mouseY}px, rgba(255,255,255,0.04) 0%, transparent calc(4% + 0px)) no-repeat border-box border-box`;
-    console.log(e.clientX);
     gradienBlob1.current.animate({
       left: `${e.clientX}px`,
       top: `${e.clientY}px`
