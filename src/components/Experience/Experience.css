@@ -146,7 +146,7 @@
     }
 }
 
-@media(min-width: 1500px) and (max-width: 1400px) {
+@media(min-width: 1800px) {
     .experience__desc {
         font-size: 2em;
     }

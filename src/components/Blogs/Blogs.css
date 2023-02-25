@@ -53,3 +53,13 @@
         /* padding: 2rem 0; */
     }
 }
+
+@media(min-width: 1800px) {
+    .blog__title {
+        font-size: 2em;
+    }
+
+    .blog__content {
+        font-size: 1.8em;
+    }
+}

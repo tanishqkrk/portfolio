@@ -116,3 +116,17 @@
         width: 90%;
     }
 }
+
+@media(min-width: 1800px) {
+    .githubProjects__title {
+        font-size: 2em;
+    }
+
+    .githubproject__title {
+        font-size: 2em;
+    }
+
+    .githubproject__desc {
+        font-size: 1.5em;
+    }
+}

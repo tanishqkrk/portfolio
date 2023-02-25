@@ -204,3 +204,17 @@
     object-fit: cover;
     margin: 0 5px;
 }
+
+@media(min-width: 1800px) {
+    .project__data--name {
+        font-size: 2em;
+    }
+
+    .project__data--desc {
+        font-size: 1.4em;
+    }
+
+    .projectTools {
+        height: 50px;
+    }
+}

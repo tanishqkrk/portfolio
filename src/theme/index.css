@@ -118,8 +118,8 @@ html {
   z-index: 99;
 }
 
-@media(min-width: 1500px) and (max-width: 1400px) {
+@media(min-width: 1800px) {
   .heading {
-    font-size: 6em;
+    font-size: 3em;
   }
 }

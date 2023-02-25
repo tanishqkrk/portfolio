@@ -304,7 +304,7 @@ body {
   animation: rotate 7s infinite linear;
   transform: translate(-40%, -40%);
   z-index: 0;
-  filter: blur(40px);
+  filter: blur(100px);
   /* -moz-backface-visibility: hidden; */
 
 }

@@ -153,3 +153,21 @@
         object-fit: cover;
     }
 }
+
+@media(min-width: 1800px) {
+    .experience__work--title {
+        font-size: 2.1em;
+    }
+
+    .experience__work--firm {
+        font-size: 1.8em;
+    }
+
+    .experience__work--desc {
+        font-size: 1.5em;
+    }
+
+    .experience__content--work {
+        row-gap: 40px;
+    }
+}

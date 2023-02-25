@@ -49,6 +49,7 @@
     padding: 12px !important;
     transition: .1s !important;
     position: relative;
+    /* backdrop-filter: blur(5px); */
     background: rgba(27, 27, 27);
     /* margin: 0px; */
 }
@@ -348,5 +349,22 @@ h3 {
 @media(max-width:350px) {
     .technologies__list {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 1800px) {
+    .technologies__title {
+        width: 60%;
+        text-align: center;
+    }
+
+    .technologies__desc {
+        font-size: .7em;
+        text-align: center;
+        width: 100%;
+    }
+
+    .technologies {
+        flex-direction: column;
     }
 }
