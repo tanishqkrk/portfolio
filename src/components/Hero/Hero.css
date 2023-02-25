@@ -156,3 +156,30 @@
     position: absolute;
     width: 80px;
 }
+
+
+.cursor {
+    position: absolute;
+    z-index: 999999999;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, .7);
+    backdrop-filter: blur(5px);
+    border-radius: 50%;
+}
+
+.cursorWord {
+    font-size: .8em;
+    color: black;
+}
+
+
+@media(min-width: 1500px) and (max-width: 1400px) {
+    .hero__title {
+        /* font-size: 2.5em !important; */
+    }
+
+    .heroLinksLink {
+        /* font-size: 1.7em; */
+    }
+}

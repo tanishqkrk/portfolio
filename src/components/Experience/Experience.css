@@ -145,3 +145,9 @@
         right: -65%;
     }
 }
+
+@media(min-width: 1500px) and (max-width: 1400px) {
+    .experience__desc {
+        font-size: 2em;
+    }
+}

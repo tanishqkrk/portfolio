@@ -4,6 +4,7 @@
     /* padding: 1em 0; */
     z-index: 99999999999;
     font-family: 'Gloock', serif;
+    /* position: relative !important; */
     /* background: transparent; */
 }
 
@@ -201,5 +202,20 @@
 @media(max-width: 500px) {
     .navbar__ham {
         width: 80vw;
+    }
+}
+
+@media(min-width: 1500px) and (max-width: 1400px) {
+    .navbar {
+        z-index: 999999999999999;
+        position: relative;
+    }
+
+    .navbarTitle {
+        font-size: 2.2em;
+    }
+
+    .navbar__link {
+        font-size: 2em;
     }
 }

@@ -4,22 +4,25 @@ import './Navbar.css'
 import NavbarHam from './NavbarHam/NavbarHam'
 import { useRef } from 'react'
 
-const Navbar = ({ openMenu, hamMenu, NavbarElement, hamIcon, line1, line2 }) => {
+const Navbar = ({ openMenu, hamMenu, NavbarElement, hamIcon, line1, line2, overlay }) => {
     const mailButton = useRef();
     useEffect(() => {
         window.addEventListener('scroll', (e) => {
             if (document.body.getBoundingClientRect().top < 0) {
                 mailButton.current.style.top = "90vh";
                 mailButton.current.style.right = "0";
+                // NavbarElement.current.style.backdropFilter = 'blur(5px)'
+                NavbarElement.current.style.background = 'black'
             }
             else if (document.body.getBoundingClientRect().top >= 0) {
-                // mailButton.current.style.position = "absolute";
                 mailButton.current.style.right = "20%";
                 mailButton.current.style.top = "10px";
+                NavbarElement.current.style.background = 'transparent'
+                // NavbarElement.current.style.backdropFilter = 'blur(0)'
             }
-
         })
     }, [])
+
 
 
     return (

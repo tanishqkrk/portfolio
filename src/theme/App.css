@@ -7,6 +7,7 @@ body {
   background-color: var(--background-color);
   color: var(--font-color);
   opacity: 1;
+  /* backdrop-filter: blur(50px); */
   background-image: linear-gradient(rgba(255, 255, 255, 0.09) 1px, transparent 1px), linear-gradient(to right, rgba(255, 255, 255, 0.09) 1px, transparent 1px);
   background-size: 30px 30px;
   user-select: none;
@@ -132,24 +133,7 @@ body {
   font-weight: 500;
 }
 
-.gradient1 {
-  width: 100vw;
-  height: 400px;
-  /* z-index: -1000000; */
-  position: absolute;
-  left: 0%;
-  top: -10%;
-  /* transform: translate(-50%, -50%); */
-  border-radius: 50%;
-  filter: blur(200px);
-  /* background: var(--blue); */
-  background: radial-gradient(circle, var(--pink) 0%, var(--dim-pink) 100%);
-  transition: .3s;
-  opacity: .6;
 
-  /* animation: rotate 20s linear infinite; */
-
-}
 
 .gradient4 {
   width: 800px;
@@ -301,26 +285,56 @@ body {
   display: none;
 }
 
+.gradient1 {
+  /* width: 400px; */
+  aspect-ratio: 1;
+  height: 20vmax;
+  /* z-index: -1000000; */
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  /* transform: translate(-50%, -50%); */
+  border-radius: 50%;
+  /* filter: blur(200px); */
+  /* background: var(--blue); */
+  background: linear-gradient(var(--blue) 0%, var(--pink) 1%, var(--blue) 100%);
+  /* transition: .8s cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+  /* opacity: .6; */
+  /* filter: brightness(.5); */
+  animation: rotate 7s infinite linear;
+  transform: translate(-40%, -40%);
+  z-index: 0;
+  filter: blur(40px);
+
+}
+
 @keyframes rotate {
   0% {
-    transform: rotate(0deg) translateY(-100vh);
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  50% {
+    transform: translate(-50%, -50%);
   }
 
   100% {
-    transform: rotate(360deg) translateY(0);
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }
 
 @keyframes blob {
   0% {
-    transform: rotate(0deg) translate(70%, 60%);
-    /* border-radius: 150%; */
+    border-radius: 50%;
   }
 
-
-
   100% {
-    transform: rotate(360deg) translate(50%, 80%);
-    /* border-radius: 250%; */
+    border-radius: 1%;
+  }
+}
+
+@media(min-width: 1500px) {
+  body {
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.1) 1.5px, transparent 1.5px), linear-gradient(to right, rgba(255, 255, 255, 0.1) 1.5px, transparent 1.5px); */
+
   }
 }

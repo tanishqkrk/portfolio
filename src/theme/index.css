@@ -115,4 +115,11 @@ html {
   font-family: var(--primary-font);
   font-size: 2.5em;
   letter-spacing: 3px;
+  z-index: 99;
+}
+
+@media(min-width: 1500px) and (max-width: 1400px) {
+  .heading {
+    font-size: 6em;
+  }
 }
