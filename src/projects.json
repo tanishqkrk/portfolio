@@ -29,6 +29,21 @@
         ]
     },
     {
+        "name": "Snapshot images",
+        "href": "https://snapshotphotos.netlify.app/",
+        "desc": "Snapshot is a image viewing app that takes data from Unsplash API",
+        "github": "snapshot",
+        "img": "snapshot.png",
+        "position": "",
+        "tools": [
+            "react.png",
+            "js.png",
+            "postman.png",
+            "vite.png",
+            "tailwind.png"
+        ]
+    },
+    {
         "name": "IP Address Tracker",
         "href": "https://tanishqkrk.github.io/IP-tracker",
         "desc": "Track any IP address, get its location, vpn status and ISP",
