@@ -299,12 +299,12 @@ body {
   /* background: var(--blue); */
   background: linear-gradient(var(--blue) 0%, var(--pink) 1%, var(--blue) 100%);
   /* transition: .8s cubic-bezier(0.175, 0.885, 0.32, 1.275); */
-  /* opacity: .6; */
+  opacity: .4;
   /* filter: brightness(.5); */
-  animation: rotate 7s infinite linear;
+  animation: rotate 6s infinite linear;
   transform: translate(-40%, -40%);
   z-index: 0;
-  filter: blur(100px);
+  filter: blur(50px);
   /* -moz-backface-visibility: hidden; */
 
 }
