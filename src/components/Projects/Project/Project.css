@@ -4,9 +4,12 @@
     flex-direction: column-reverse;
     align-items: center;
     width: 80%;
+    padding: 10px;
     /* position: relative; */
-    margin: 4rem 0;
+    margin: 2rem 0;
     z-index: 999;
+    border: 1px solid white;
+    border-radius: 12px;
 }
 
 .project__data {
@@ -107,7 +110,7 @@
 }
 
 .project__img {
-    padding: 10px;
+    /* padding: 10px; */
     border: 1px solid white;
     border-radius: 10px;
     width: 100%;

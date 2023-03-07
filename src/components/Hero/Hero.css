@@ -1,15 +1,18 @@
 .hero {
     width: 100%;
-    height: 100vh;
+    height: 100svh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
-    font-size: var(--heading);
+    row-gap: 40px;
+    /* font-size: var(--heading); */
     user-select: none;
     position: relative;
-    font-family: 'Gloock', serif;
+    /* font-family: 'Gloock', serif; */
     position: relative;
+    text-align: left;
+    padding: 0 20px;
     /* background: linear-gradient(180deg, rgba(1, 1, 1, 1) 50%, transparent 100%); */
     /* font-size: 200%; */
     /* z-index: 9; */
@@ -19,29 +22,108 @@
     /* text-shadow: 0px 0px 150px rgba(255, 255, 255, 1); */
 }
 
+.hero__title {
+    /* width: 100%; */
+}
+
+.hero__quote {
+    font-size: 1.2em;
+    /* width: 20%; */
+    display: inline;
+    /* padding-left: 0.25em; */
+
+}
+
+.hero__quote::after {
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.2em;
+    margin-left: 0.25em;
+    vertical-align: -0.4em;
+    position: relative;
+    animation: textGradient 15s linear infinite;
+    animation-delay: 1s;
+    background: var(--linear-gradient);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* content: '"'; */
+    /* font-size: 2em; */
+
+}
+
+.hero__quote::before {
+    /* color: #ccc; */
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.2em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+    position: relative;
+    animation: textGradient 15s linear infinite;
+    animation-delay: 1s;
+    background: var(--linear-gradient);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* content: '"'; */
+    /* font-size: 2em; */
+}
+
+.current {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 1.2em;
+}
+
+.current div {
+    display: flex;
+    column-gap: 10px;
+}
+
+
+.currentBuilding::before {
+    content: '🚀';
+}
+
+.currentAt::before {
+    content: '💻';
+}
+
+.currentWorking::before {
+    content: '👨‍💻';
+}
+
+.current a {
+    color: var(--pink);
+    /* text-decoration: none; */
+}
 
 .heroLinks {
-    font-family: 'Syne', sans-serif;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
+    /* font-family: 'Syne', sans-serif; */
+    /* position: absolute; */
+    /* bottom: 10px; */
+    /* right: 10px; */
     z-index: 9999999999;
     display: flex;
-    justify-content: end;
+    /* justify-content: end; */
     column-gap: 40px;
 }
 
 .heroLinksLink {
-    font-size: .5em;
+    /* font-size: .5em; */
     text-decoration: none;
     color: white;
 }
 
 .hero h1 {
-    position: relative;
+    /* position: relative; */
     margin: 0;
-    font-size: 2em;
-    font-weight: 100;
+    /* font-size: 1.5em; */
+    /* font-weight: 100; */
     z-index: 99;
 }
 
@@ -56,10 +138,10 @@
     /* white-space: nowrap; */
     font-weight: 500;
     /* font-size: 3em; */
-    text-align: right;
+    /* text-align: right; */
     width: 100%;
     display: block;
-    font-size: 2em;
+    /* font-size: 2em; */
     color: white;
 }
 
@@ -74,9 +156,17 @@
     -webkit-text-fill-color: transparent;
 }
 
+.hero__title--text {
+    font-size: 1.5em;
+}
+
+.hero__subtitle--text {
+    font-size: 3em;
+}
+
 .hero__bottom {
     font-weight: 500;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     bottom: 0;
     position: absolute;
     /* display: none; */
@@ -111,17 +201,17 @@
 }
 
 .hero__resume--title {
-    font-size: .7em;
+    /* font-size: .7em; */
     color: white;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 10px;
     background: rgba(255, 255, 255, .2);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(.5px);
     text-decoration: none;
     text-align: center;
     /* width: 100%; */
     border-radius: 8px;
-    display: none;
+    /* display: none; */
     outline: 1px solid rgba(255, 255, 255, .6);
 }
 
@@ -235,8 +325,8 @@
 }
 
 .cursorWord {
-    font-size: .8em;
-    color: black;
+    /* font-size: .8em; */
+    /* color: black; */
 }
 
 

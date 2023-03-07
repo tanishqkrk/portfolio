@@ -27,8 +27,8 @@ const Navbar = ({ openMenu, hamMenu, NavbarElement, hamIcon, line1, line2, overl
 
     return (
         <header ref={NavbarElement} className="navbar">
-            <h1 className='navbarTitle'>TANISHQKRK</h1>
-            <a href="#"> <img src="./opt 1.svg" alt="" className="navbar__logo" /></a>
+            <a href='' className='navbarTitle'><img src="/opt 1.svg" alt="" /></a>
+            {/* <a href="#"> <img src="./opt 1.svg" alt="" className="navbar__logo" /></a> */}
             <a ref={mailButton} target={"_blank"} href='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqZhfXpHnlHVlmDHFrMJZBnXKhsfNLKZzjvnTPvvGcQkRZNvBZJQKHCMJFmwhKtPHdKWcL' className="navbarMail"><i className="fa-solid fa-envelope"></i></a>
             <div className="navbarLinks">
                 <NavbarLink title={'Experience'} href={'#experience'}></NavbarLink>

@@ -112,9 +112,9 @@ html {
 }
 
 .heading {
-  font-family: var(--primary-font);
+  /* font-family: var(--primary-font); */
   font-size: 2.5em;
-  letter-spacing: 3px;
+  /* letter-spacing: 3px; */
   z-index: 99;
 }
 
