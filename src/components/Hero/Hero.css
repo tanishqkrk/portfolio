@@ -117,6 +117,27 @@
     /* font-size: .5em; */
     text-decoration: none;
     color: white;
+    z-index: 99;
+    position: relative;
+}
+
+.heroLinksLink::after {
+    content: '';
+    /* width: 100%; */
+    width: 0%;
+    height: 2px;
+    background: var(--linear-gradient);
+    background-size: 200%;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    transition: .3s ease;
+    animation: textGradient 3s linear infinite;
+}
+
+.heroLinksLink:hover::after {
+    width: 100%
 }
 
 .hero h1 {
@@ -296,6 +317,16 @@
         padding: 5px;
         line-height: 20px;
         bottom: 10%;
+    }
+
+    .hero__quote {
+        font-size: 1em;
+        /* line-height: ; */
+    }
+
+    .hero__quote::before,
+    .hero__quote::after {
+        font-size: 2em;
     }
 }
 

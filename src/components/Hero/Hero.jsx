@@ -16,13 +16,11 @@ const Hero = ({ }) => {
                     <div className='currentWorking'>Working on <a target={"_blank"} href="https://github.com/tanishqkrk/wool">Wool</a></div>
                 </div>
                 <a href='./resume.pdf' download={'./resume.pdf'} className="hero__resume--title">Download Resume</a>
-
-                {/* <div className="heroLinks"> */}
-                {/* <a href="https://www.linkedin.com/in/tanishq-kr-kaushal-835b0221b/" className="heroLinksLink">Linkedin</a> */}
-                {/* <a href="https://github.com/tanishqkrk" className="heroLinksLink">GitHub</a> */}
-                {/* <a href="https://twitter.com/TanishqKaushal" className="heroLinksLink">Twitter</a> */}
-                {/* </div> */}
-                {/* <a href='https://github.com/medmac01/healthyAI' className="currentStatus">📢📢I'm currently in a hackathon, working on an AI based medical startup. You can find me and my team and what we are building by clicking here😉</a> */}
+                <div className="heroLinks">
+                    <a target={"_blank"} href="https://www.linkedin.com/in/tanishq-kr-kaushal-835b0221b/" className="heroLinksLink">Linkedin</a>
+                    <a target={"_blank"} href="https://github.com/tanishqkrk" className="heroLinksLink">GitHub</a>
+                    <a target={"_blank"} href="https://twitter.com/TanishqKaushal" className="heroLinksLink">Twitter</a>
+                </div>
             </div>
             {/* <div className="bottom"></div> */}
         </React.Fragment>
