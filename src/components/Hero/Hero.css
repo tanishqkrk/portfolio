@@ -177,6 +177,11 @@
     column-gap: 10px;
 }
 
+.country::before {
+    /* content: url('/india.webp'); */
+    /* width: 20px; */
+    /* height: 20px; */
+}
 
 .currentBuilding::before {
     content: '🚀';

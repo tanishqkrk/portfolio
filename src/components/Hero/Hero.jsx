@@ -12,6 +12,7 @@ const Hero = ({ }) => {
                     <div className='hero__quote'>Strive for perfection in everything you do. Take the best that exists and make it better. <br />When it does not exist, design it.</div>
                     {/* <div className='hero__bottom'>Wrote over 5000+ lines of code 🚀</div> */}
                     <div className='current'>
+                        <div className='country'></div>
                         <div className='currentBuilding'>Building <a target={"_blank"} href="https://github.com/medmac01/healthyAI">HealthyAI</a></div>
                         <div className='currentAt'>Frontend Intern at <a target={"_blank"} href="https://getprobooking.com">Probooking</a></div>
                         <div className='currentWorking'>Working on <a target={"_blank"} href="https://github.com/tanishqkrk/wool">Wool</a></div>

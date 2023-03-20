@@ -19,7 +19,8 @@ html {
   /* --background-color: #0C0C0C; */
   --background-color: #0C0C0C;
   --font-color: #FFFFFF;
-  --blue: rgba(0, 48, 104, 1);
+  /* --blue: rgba(0, 48, 104, 1); */
+  --blue: rgb(0, 187, 255);
   --pink: rgba(220, 3, 255, 1);
   --dim-pink: rgba(220, 3, 255, .05);
   --dim-blue: rgba(0, 48, 104, .3);
