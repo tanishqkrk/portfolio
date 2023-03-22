@@ -42,17 +42,5 @@
             "vite.png",
             "tailwind.png"
         ]
-    },
-    {
-        "name": "IP Address Tracker",
-        "href": "https://tanishqkrk.github.io/IP-tracker",
-        "desc": "Track any IP address, get its location, vpn status and ISP",
-        "github": "IP-tracker",
-        "img": "ip-min.png",
-        "position": "",
-        "tools": [
-            "js.png",
-            "postman.png"
-        ]
     }
 ]
