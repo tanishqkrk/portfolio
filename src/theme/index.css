@@ -20,8 +20,10 @@ html {
   --background-color: #0C0C0C;
   --font-color: #FFFFFF;
   /* --blue: rgba(0, 48, 104, 1); */
-  --blue: rgb(0, 187, 255);
-  --pink: rgba(220, 3, 255, 1);
+  --blue: red;
+  /* --blue: rgb(0, 187, 255); */
+  /* --pink: rgba(220, 3, 255, 1); */
+  --pink: hotpink;
   --dim-pink: rgba(220, 3, 255, .05);
   --dim-blue: rgba(0, 48, 104, .3);
   --linear-gradient: linear-gradient(to right,

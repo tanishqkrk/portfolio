@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Sperse Chat (Beta)",
+        "href": "https://sperse.netlify.app/",
+        "desc": "FOSS Chat app for everyone!",
+        "github": "sperse",
+        "img": "sperse.jpg",
+        "position": "",
+        "tools": [
+            "react.png",
+            "firebase.png",
+            "js.png",
+            "postman.png",
+            "vite.png"
+        ]
+    },
+    {
+        "name": "Vision Videos",
+        "href": "https://visionvideos.netlify.app/",
+        "desc": "Vision video player lets you watch your favorite videos ad-free!",
+        "github": "vision",
+        "img": "vision.jpg",
+        "position": "",
+        "tools": [
+            "react.png",
+            "js.png",
+            "postman.png",
+            "vite.png"
+        ]
+    },
+    {
+        "name": "Snapshot images",
+        "href": "https://snapshotphotos.netlify.app/",
+        "desc": "Snapshot is a image viewing app that takes data from Unsplash API",
+        "github": "snapshot",
+        "img": "snapshot.png",
+        "position": "",
+        "tools": [
+            "react.png",
+            "js.png",
+            "postman.png",
+            "vite.png",
+            "tailwind.png"
+        ]
+    },
+    {
+        "name": "Wool (Web Tools)",
+        "href": "https://woolonline.netlify.app/",
+        "desc": "Wool is a multipurpose set of web tools that is currently under progress",
+        "github": "wool",
+        "img": "wool.png",
+        "position": "",
+        "tools": [
+            "react.png",
+            "js.png",
+            "postman.png",
+            "vite.png",
+            "tailwind.png"
+        ]
+    },
+    {
+        "name": "IP Address tracker",
+        "href": "https://tanishqkrk.github.io/IP-tracker/",
+        "desc": "Takes IP address as input and returns the geolocation as a map",
+        "github": "ip-tracker",
+        "img": "ip-min.png",
+        "position": "",
+        "tools": [
+            "js.png",
+            "postman.png",
+            "vite.png"
+        ]
+    },
+    {
+        "name": "Password Generator",
+        "href": "https://tanishqkrk.github.io/IP-tracker/",
+        "desc": "Generate random passwords and check their strengths. Choose 4 different parameters to generate a strong password",
+        "github": "password-generator",
+        "img": "pg.png",
+        "position": "",
+        "tools": [
+            "js.png",
+            "vite.png"
+        ]
+    }
+]

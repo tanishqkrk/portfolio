@@ -178,54 +178,24 @@ h3 {
     border: 1px solid #afdeff;
 }
 
-.kotlin {
-    border: 1px solid #ec7d30;
+.redux {
+    border: 1px solid #764abc;
 }
 
-.python {
-    border: 1px solid #ffd344;
+.next {
+    border: 1px solid white;
 }
+
 
 .technologies__list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    /* gap: 0px 0px; */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     width: 50%;
     gap: 10px;
     grid-auto-flow: row;
-}
-
-.react {
-    grid-area: 1 / 1 / 3 / 3;
-}
-
-.javascript {
-    grid-area: 1 / 3 / 2 / 4;
-}
-
-.python {
-    grid-area: 1 / 4 / 2 / 5;
-}
-
-.typescript {
-    grid-area: 2 / 4 / 3 / 5;
-}
-
-.Kotlin {
-    grid-area: 2 / 3 / 3 / 4;
-}
-
-.kotlin {
-    grid-area: 2 / 3 / 3 / 4;
-}
-
-.jquery {
-    grid-area: 3 / 2 / 4 / 3;
-}
-
-.bootstrap {
-    grid-area: 4 / 2 / 5 / 3;
 }
 
 .tailwind {
@@ -233,11 +203,43 @@ h3 {
 }
 
 .vuetify {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.bootstrap {
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+.jquery {
     grid-area: 4 / 1 / 5 / 2;
 }
 
+.next {
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.react {
+    grid-area: 1 / 3 / 3 / 4;
+}
+
 .vue {
-    grid-area: 3 / 3 / 5 / 5;
+    grid-area: 3 / 4 / 5 / 5;
+}
+
+.javascript {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.typescript {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+.redux {
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.git {
+    grid-area: 4 / 3 / 5 / 4;
 }
 
 @media(max-width: 1200px) {
@@ -307,8 +309,9 @@ h3 {
         grid-area: initial;
     }
 
-    .python {
-        grid-area: initial;
+    .next {
+        grid-area: 1 / 1 / 3 / 2;
+        /* grid-area: initial; */
     }
 
     .typescript {

@@ -14,7 +14,7 @@ const Hero = ({ }) => {
                     <div className='current'>
                         <div className='country'></div>
                         <div className='currentBuilding'>Building <a target={"_blank"} href="https://github.com/medmac01/healthyAI">HealthyAI</a></div>
-                        <div className='currentAt'>Frontend Intern at <a target={"_blank"} href="https://getprobooking.com">Probooking</a></div>
+                        <div className='currentAt'>Frontend Engineer at <a target={"_blank"} href="https://asymmetri.in/">Asymmetri.in</a></div>
                         <div className='currentWorking'>Working on <a target={"_blank"} href="https://github.com/tanishqkrk/wool">Wool</a></div>
                     </div>
                     <a href='./resume.pdf' download={'./resume.pdf'} className="hero__resume--title">Download Resume</a>

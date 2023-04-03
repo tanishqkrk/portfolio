@@ -30,16 +30,16 @@
         "classname": "bootstrap"
     },
     {
-        "id": "py",
-        "title": "Python",
-        "src": "python.png",
-        "classname": "python"
+        "id": "next",
+        "title": "NextJS",
+        "src": "next.svg",
+        "classname": "next"
     },
     {
-        "id": "kt",
-        "title": "Kotlin",
-        "src": "kotlin.png",
-        "classname": "kotlin"
+        "id": "redux",
+        "title": "Redux",
+        "src": "redux.svg",
+        "classname": "redux"
     },
     {
         "id": "vue",
@@ -58,5 +58,11 @@
         "title": "Vuetify",
         "src": "vuetify.png",
         "classname": "vuetify"
+    },
+    {
+        "id": "git",
+        "title": "Git",
+        "src": "git.png",
+        "classname": "git"
     }
 ]
