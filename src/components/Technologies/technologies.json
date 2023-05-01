@@ -60,9 +60,9 @@
         "classname": "vuetify"
     },
     {
-        "id": "git",
-        "title": "Git",
-        "src": "git.png",
-        "classname": "git"
+        "id": "svelte",
+        "title": "SvelteKit",
+        "src": "svelte.svg",
+        "classname": "svelte"
     }
 ]

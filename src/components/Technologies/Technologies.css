@@ -157,11 +157,11 @@ h3 {
 
 }
 
-.git {
+.svelte {
     /* animation: textGradient 2.7s linear infinite; */
     /* background: linear-gradient(to right, #E84D31, #51180e, #E84D31); */
     /* background-size: 200%; */
-    border: 1px solid #E84D31;
+    border: 1px solid #FF3E00;
 
 }
 
@@ -238,7 +238,7 @@ h3 {
     grid-area: 3 / 3 / 4 / 4;
 }
 
-.git {
+.svelte {
     grid-area: 4 / 3 / 5 / 4;
 }
 
