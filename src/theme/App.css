@@ -8,7 +8,7 @@ body {
   color: var(--font-color);
   opacity: 1;
   /* backdrop-filter: blur(50px); */
-  background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 2px), linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, #000000 2px);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.00) 1px, transparent 2px), linear-gradient(to right, rgba(255, 255, 255, 0.00) 1px, #000000 2px);
   ;
   background-size: 30px 30px;
   user-select: none;
