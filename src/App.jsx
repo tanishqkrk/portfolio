@@ -24,7 +24,7 @@ const App = () => {
     let mouseX = e.clientX - rect.left;
     let mouseY = e.clientY - rect.top;
     overlay.current.style.opacity = `1`;
-    overlay.current.style.background = `radial-gradient(circle at ${mouseX}px ${mouseY}px, rgba(255,255,255,0.04) 0%, transparent calc(5% + 0px)) no-repeat border-box border-box`;
+    overlay.current.style.background = `radial-gradient(circle at ${mouseX}px ${mouseY}px, rgba(255,255,255,0.03) 0%, transparent calc(5% + 0px)) no-repeat border-box border-box`;
   }
 
   const openMenu = () => {
