@@ -7,7 +7,7 @@ import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Tanishqkrk",
-  description: "Peek into the life of a SWE and clash of clasn player.",
+  description: "Peek into the life of a SWE and clash of clans player.",
 };
 
 const armio = Fira_Code({

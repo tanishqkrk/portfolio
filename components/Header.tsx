@@ -7,7 +7,7 @@ export default function Header() {
   const path = usePathname();
 
   return (
-    <div className="mt-40 mb-2 flex justify-between items-center max-md:mt-20">
+    <div className="mt-40 mb-2 flex justify-between items-center max-md:mt-20 max-sm:mt-6">
       <div>
         <Link className="link" href={"/"}>
           tanishqkrk/

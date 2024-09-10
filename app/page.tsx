@@ -11,7 +11,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="space-y-3">
+    <div className="space-y-3 mb-16">
       <div className="flex gap-12 max-sm:flex-col max-sm:gap-6">
         <div className="space-y-3">
           <div className="w-52 max-sm:w-36 ">
@@ -69,7 +69,7 @@ export default function Home() {
         </div>
       </div>
       <hr className="bg-gray-300 h-[2px]" />
-      <div className="flex gap-1">
+      <div className="flex gap-1 ">
         <a href="https://www.linkedin.com/in/tanishqkrk/" target="_blank">
           <Linkedin color="#00000090" size={18}></Linkedin>
         </a>
