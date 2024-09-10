@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #f3f8ff;
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
@@ -24,4 +24,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.link:hover {
+  color: rgb(71, 105, 255);
 }
