@@ -36,16 +36,28 @@ export default function Home() {
           year old self-taught{" "}
           <span className="font-semibold">software engineer</span> based in New
           Delhi, India. Working professionally in companies like{" "}
-          <a className="text-blue-600 hover:underline" href="">
+          <a
+            className="text-blue-600 hover:underline"
+            target="_blank"
+            href="https://www.getprobooking.com/"
+          >
             Probooking
           </a>{" "}
           and currently working at{" "}
-          <a className="text-blue-600 hover:underline" href="">
+          <a
+            target="_blank"
+            className="text-blue-600 hover:underline"
+            href="https://www.asymmetri.in/"
+          >
             Asymmetri
           </a>{" "}
           I also like hacking together projects on the side, currently working
           on{" "}
-          <a className="text-blue-600 hover:underline" href="">
+          <a
+            className="text-blue-600 hover:underline"
+            target="_blank"
+            href="https://github.com/tanishqkrk/briqs"
+          >
             Briqs.site
           </a>
           . My tech stack being{" "}

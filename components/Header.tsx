@@ -10,7 +10,7 @@ export default function Header() {
     <div className="mt-40 mb-2 flex justify-between items-center max-md:mt-20 max-sm:mt-6">
       <div>
         <Link className="link" href={"/"}>
-          tanishqkrk/
+          tanishqkrk.dev/
         </Link>
         {path.includes("work") && (
           <Link className="link" href={"/work"}>
