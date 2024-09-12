@@ -15,7 +15,8 @@ export default function Home() {
         <div>
           I&apos;m <span className="font-bold">Tanishq Kaushal</span>, a 21 year
           old self-taught <span className="font-bold">software engineer</span>{" "}
-          based in New Delhi, India. Working professionally in companies like{" "}
+          based in New Delhi, India. While working professionally in companies
+          like{" "}
           <a
             className="text-blue hover:underline"
             target="_blank"
@@ -31,7 +32,7 @@ export default function Home() {
           >
             Asymmetri
           </a>{" "}
-          I also like hacking together projects on the side, currently working
+          , I also like hacking together projects on the side. Currently working
           on{" "}
           <a
             className="text-blue hover:underline"
