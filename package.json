@@ -1,6 +1,6 @@
 {
   "name": "tanishqkrk",
-  "version": "0.1.0",
+  "versin": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.11",
+    "@types/mdx": "^2.0.13",
     "lucide-react": "^0.439.0",
     "next": "14.2.9",
     "react": "^18",

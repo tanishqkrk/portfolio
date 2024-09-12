@@ -3,20 +3,31 @@
 @tailwind utilities;
 
 :root {
-  --background: #f3f8ff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --black: "#546e7a";
+  --red: "#ff5370";
+  --green: "#c3e88d";
+  --yellow: "#ffcb6b";
+  --blue: "#82aaff";
+  --purple: "#c792ea";
+  --cyan: "#89ddff";
+  --white: "#ffffff";
+  --brightblack: "#546e7a";
+  --brightred: "#ff5370";
+  --brightgreen: "#c3e88d";
+  --brightyellow: "#ffcb6b";
+  --brightblue: "#82aaff";
+  --brightpurple: "#c792ea";
+  --brightcyan: "#89ddff";
+  --brightwhite: "#ffffff";
+  --background: "#0f111a";
+  --foreground: "#8f93a2";
+  --selectionbackground: "#1f2233";
+  --cursorcolor: "#ffcc00";
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  /* color: var(--foreground); */
+  /* background: var(--background); */
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,6 +37,20 @@ body {
   }
 }
 
-.link:hover {
-  color: rgb(71, 105, 255);
+.markdown > * {
+  all: revert;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
