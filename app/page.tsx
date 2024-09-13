@@ -9,7 +9,7 @@ export default function Home() {
             <code></code>
           </pre>
           <div className="w-52 max-sm:w-36 ">
-            <img className="w-full " alt="My face" src={"/me2.jpg"}></img>
+            <img className="w-full " alt="My face" src={"/me2.webp"}></img>
           </div>
         </div>
         <div>
