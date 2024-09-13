@@ -31,7 +31,7 @@ export default function Home() {
             href="https://www.asymmetri.in/"
           >
             Asymmetri
-          </a>{" "}
+          </a>
           , I also like hacking together projects on the side. Currently working
           on{" "}
           <a
