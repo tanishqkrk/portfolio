@@ -3,7 +3,6 @@
 import { Terminal } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-// import { LightbulbOff } from "lucide-react";
 export default function Header() {
   const path = usePathname();
 
@@ -22,14 +21,6 @@ export default function Header() {
         )}
         <div className="h-4 w-3 bg-cursorColor blink"></div>
       </div>
-
-      {/* <div className="text-cursorColor">
-        {new Date(Date.now()).getDate().toString() +
-          "/" +
-          new Date(Date.now()).getMonth().toString() +
-          "/" +
-          new Date(Date.now()).getFullYear().toString()}
-      </div> */}
     </div>
   );
 }
