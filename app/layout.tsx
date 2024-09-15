@@ -36,6 +36,9 @@ export default function RootLayout({
 }>) {
   return (
     <html className="bg-background text-foreground" lang="en">
+      <head>
+        <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+      </head>
       <body
         className={`${armio.className} antialiased px-72  max-xl:px-40 max-lg:px-20 max-md:px-16 max-sm:px-4 `}
       >
