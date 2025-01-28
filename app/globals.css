@@ -3,27 +3,28 @@
 @tailwind utilities;
 
 :root {
-  --black: "#546e7a";
-  --red: "#ff5370";
-  --green: "#c3e88d";
-  --yellow: "#ffcb6b";
-  --blue: "#82aaff";
-  --purple: "#c792ea";
-  --cyan: "#89ddff";
-  --white: "#ffffff";
-  --brightblack: "#546e7a";
-  --brightred: "#ff5370";
-  --brightgreen: "#c3e88d";
-  --brightyellow: "#ffcb6b";
-  --brightblue: "#82aaff";
-  --brightpurple: "#c792ea";
-  --brightcyan: "#89ddff";
-  --brightwhite: "#ffffff";
-  --background: "#0f111a";
-  --foreground: "#8f93a2";
-  --selectionbackground: "#1f2233";
-  --cursorcolor: "#ffcc00";
+  --black: #0B3B61,
+  --red: #FF3A3A,
+  --green: #52FFD0,
+  --yellow: #FFF383,
+  --blue: #1376F9,
+  --purple: #C792EA,
+  --cyan: #FF5ED4,
+  --white: #16FDA2,
+  --brightBlack: #63686D,
+  --brightRed: #FF54B0,
+  --brightGreen: #74FFD8,
+  --brightYellow: #FCF5AE,
+  --brightBlue: #388EFF,
+  --brightPurple: #AE81FF,
+  --brightCyan: #FF6AD7,
+  --brightWhite: #60FBBF,
+  --background: #010C18,
+  --foreground: #ECDEF4,
+  --selectionBackground: #38FF9C,
+  --cursorColor: #38FF9D,
 }
+
 
 body {
   /* color: var(--foreground); */
@@ -53,4 +54,9 @@ body {
   to {
     visibility: hidden;
   }
+}
+
+
+.markdown a {
+  color:#388EFF !important
 }

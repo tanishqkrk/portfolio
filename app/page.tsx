@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -9,16 +10,22 @@ export default function Home() {
             <code></code>
           </pre>
           <div className="w-52 max-sm:w-36 ">
-            <img className="w-full " alt="My face" src={"/me2.webp"}></img>
+            <Image
+              width={400}
+              height={400}
+              className="w-full "
+              alt="My face"
+              src={"/me2.webp"}
+            ></Image>
           </div>
         </div>
         <div>
-          I&apos;m <span className="font-bold">Tanishq Kaushal</span>, a 21 year
+          I&apos;m <span className="font-bold">Tanishq Kaushal</span>, a 22 year
           old self-taught <span className="font-bold">software engineer</span>{" "}
           based in New Delhi, India. While working professionally in companies
           like{" "}
           <a
-            className="text-blue hover:underline"
+            className="text-brightBlue hover:underline"
             target="_blank"
             href="https://www.getprobooking.com/"
           >
@@ -27,7 +34,7 @@ export default function Home() {
           and currently working at{" "}
           <a
             target="_blank"
-            className="text-blue hover:underline"
+            className="text-brightBlue hover:underline"
             href="https://www.asymmetri.in/"
           >
             Asymmetri
@@ -35,7 +42,7 @@ export default function Home() {
           , I also like hacking together projects on the side. Currently working
           on{" "}
           <a
-            className="text-blue hover:underline"
+            className="text-brightBlue hover:underline"
             target="_blank"
             href="https://github.com/tanishqkrk/briqs"
           >
@@ -52,11 +59,11 @@ export default function Home() {
           13).
           <br />
           <br />
-          <Link href="/work" className="text-blue hover:underline ">
+          <Link href="/work" className="text-brightBlue hover:underline ">
             Read about my work.
           </Link>
           <br />
-          <Link href="/resume.pdf" className="text-blue hover:underline">
+          <Link href="/resume.pdf" className="text-brightBlue hover:underline">
             Resume.
           </Link>
         </div>
