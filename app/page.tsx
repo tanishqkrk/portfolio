@@ -44,9 +44,9 @@ export default function Home() {
           <a
             className="text-brightBlue hover:underline"
             target="_blank"
-            href="https://github.com/tanishqkrk/briqs"
+            href="https://kando-work.vercel.app/"
           >
-            Briqs.site
+            Kando
           </a>
           . My tech stack being{" "}
           <span className="font-bold">everything JavaScript</span> (TypeScript,
@@ -56,7 +56,7 @@ export default function Home() {
           I also practice boxing, lift weights and go on jogs to keep up with my
           unhealthy caffeine habits. Oh! I like solving rubik&apos;s cubes,
           practicing math quizes and play Clash of Clans (I&apos;m a Town hall
-          13).
+          14).
           <br />
           <br />
           <Link href="/work" className="text-brightBlue hover:underline ">
