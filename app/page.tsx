@@ -77,13 +77,13 @@ export default function Home() {
   );
 }
 
-function Keystroke({ letter, action }: { letter: string; action: Function }) {
-  return (
-    <button
-      onClick={action()}
-      className="keystroke max-md:hidden text-white bg-green/80 px-2 text-sm font-semibold"
-    >
-      {letter}
-    </button>
-  );
-}
+// function Keystroke({ letter, action }: { letter: string; action: Function }) {
+//   return (
+//     <button
+//       onClick={action()}
+//       className="keystroke max-md:hidden text-white bg-green/80 px-2 text-sm font-semibold"
+//     >
+//       {letter}
+//     </button>
+//   );
+// }
