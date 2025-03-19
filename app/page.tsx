@@ -1,6 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
+// const keystrokes = {
+//   W: "/work",
+//   R: "/resume.pdf",
+// };
+
 export default function Home() {
   return (
     <div className="space-y-3 mb-16">
@@ -69,5 +74,16 @@ export default function Home() {
         </div>
       </div>
     </div>
+  );
+}
+
+function Keystroke({ letter, action }: { letter: string; action: Function }) {
+  return (
+    <button
+      onClick={action()}
+      className="keystroke max-md:hidden text-white bg-green/80 px-2 text-sm font-semibold"
+    >
+      {letter}
+    </button>
   );
 }

@@ -1,28 +1,28 @@
 import type { Config } from "tailwindcss";
 
-export const colorScheme = {
-  name: "coolnight",
-  black: "#0B3B61",
-  red: "#FF3A3A",
-  green: "#52FFD0",
-  yellow: "#FFF383",
-  blue: "#1376F9",
-  purple: "#C792EA",
-  cyan: "#FF5ED4",
-  white: "#16FDA2",
-  brightBlack: "#63686D",
-  brightRed: "#FF54B0",
-  brightGreen: "#74FFD8",
-  brightYellow: "#FCF5AE",
-  brightBlue: "#388EFF",
-  brightPurple: "#AE81FF",
-  brightCyan: "#FF6AD7",
-  brightWhite: "#60FBBF",
-  background: "#010C18",
-  foreground: "#ECDEF4",
-  selectionBackground: "#38FF9C",
-  cursorColor: "#38FF9D",
-};
+// export const colorScheme = {
+//   name: "coolnight",
+//   black: "#0B3B61",
+//   red: "#FF3A3A",
+//   green: "#52FFD0",
+//   yellow: "#FFF383",
+//   blue: "#1376F9",
+//   purple: "#C792EA",
+//   cyan: "#FF5ED4",
+//   white: "#16FDA2",
+//   brightBlack: "#63686D",
+//   brightRed: "#FF54B0",
+//   brightGreen: "#74FFD8",
+//   brightYellow: "#FCF5AE",
+//   brightBlue: "#388EFF",
+//   brightPurple: "#AE81FF",
+//   brightCyan: "#FF6AD7",
+//   brightWhite: "#60FBBF",
+//   background: "#010C18",
+//   foreground: "#ECDEF4",
+//   selectionBackground: "#38FF9C",
+//   cursorColor: "#38FF9D",
+// };
 // export const colorScheme = {
 //   name: "Guezwhoz",
 //   black: "#080808",
@@ -92,6 +92,30 @@ export const colorScheme = {
 //   cursorColor: "#9b9ea4",
 // };
 
+export const colorScheme = {
+  name: "Adventure",
+  black: "#040404",
+  red: "#d84a33",
+  green: "#5da602",
+  yellow: "#eebb6e",
+  blue: "#417ab3",
+  purple: "#e5c499",
+  cyan: "#bdcfe5",
+  white: "#dbded8",
+  brightBlack: "#685656",
+  brightRed: "#d76b42",
+  brightGreen: "#99b52c",
+  brightYellow: "#ffb670",
+  brightBlue: "#97d7ef",
+  brightPurple: "#aa7900",
+  brightCyan: "#bdcfe5",
+  brightWhite: "#e4d5c7",
+  background: "#040404",
+  foreground: "#feffff",
+  selectionBackground: "#606060",
+  cursorColor: "#feffff",
+};
+
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -101,7 +125,6 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // name: "NvimDark",
         ...colorScheme,
       },
     },
