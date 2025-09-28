@@ -1,6 +1,6 @@
 "use client";
 
-import { Terminal } from "lucide-react";
+import { Lock, Terminal, Unlock } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -21,6 +21,13 @@ export default function Header() {
           {fullUrl.replace("http://", "").replace("https://", "")}
         </Link>
         <div className="h-4 w-3 bg-cursorColor blink"></div>
+      </div>
+      <div>
+        {fullUrl.includes("https") ? (
+          <Lock size={16} className=" text-brightGreen"></Lock>
+        ) : (
+          <Unlock size={16} className=" text-brightRed"></Unlock>
+        )}
       </div>
     </div>
   );
