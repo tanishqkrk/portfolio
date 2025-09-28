@@ -3,8 +3,14 @@
 import { Terminal } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 export default function Header() {
   const path = usePathname();
+  const [fullUrl, setFullUrl] = useState("");
+
+  useEffect(() => {
+    setFullUrl(window.location.href);
+  }, [path]);
 
   return (
     <div className="mt-40 mb-2 flex justify-between items-center max-md:mt-20 max-sm:mt-16 font-semibold ">
@@ -12,13 +18,8 @@ export default function Header() {
         <Terminal></Terminal>
         <p className="mx-1 text-foreground">curl</p>
         <Link className="" href={"/"}>
-          tanishqkrk.dev/
+          {fullUrl}
         </Link>
-        {path.includes("work") && (
-          <Link className="" href={"/work"}>
-            work/
-          </Link>
-        )}
         <div className="h-4 w-3 bg-cursorColor blink"></div>
       </div>
     </div>

@@ -1,6 +1,15 @@
-// "use client";
+"use client";
 import { Github, Instagram, Linkedin, Lock, Mail, Twitter } from "lucide-react";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 export default function Footer() {
+  const path = usePathname();
+  const [fullUrl, setFullUrl] = useState("");
+
+  useEffect(() => {
+    setFullUrl(window.location.href);
+  }, [path]);
+
   return (
     <footer>
       {/* <hr className="bg-gray-300 h-[1px]" /> */}
@@ -40,7 +49,10 @@ export default function Footer() {
         <div className="text-sm opacity-60 flex items-center gap-1">
           <Lock size={16}></Lock>
           <span>
-            READ-ONLY: <span className="text-orange-200">TRUE</span>
+            READ-ONLY:{" "}
+            <span className="text-orange-200">
+              {fullUrl.includes("localhost") ? "FALSE" : "TRUE"}
+            </span>
           </span>
         </div>
       </div>
