@@ -5,14 +5,14 @@ import //  Arimo,
 //  Source_Code_Pro
 "next/font/google";
 import {
-  Coming_Soon,
-  Condiment,
-  Fira_Code,
-  Lexend_Exa,
-  Montserrat,
-  Source_Code_Pro,
-  Space_Grotesk,
-  Ubuntu,
+  // Coming_Soon,
+  // Condiment,
+  // Fira_Code,
+  // Lexend_Exa,
+  // Montserrat,
+  // Source_Code_Pro,
+  // Space_Grotesk,
+  // Ubuntu,
   JetBrains_Mono,
 } from "next/font/google";
 import Header from "@/components/Header";
