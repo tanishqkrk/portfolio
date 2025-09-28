@@ -13,12 +13,12 @@ export default function Header() {
   }, [path]);
 
   return (
-    <div className="mt-40 mb-2 flex justify-between items-center max-md:mt-20 max-sm:mt-16 font-semibold ">
+    <div className="mt-40 mb-2 flex justify-between items-center max-md:mt-20 max-sm:mt-16 font-semibold max-md:text-sm">
       <div className="bg-background text-green w-fit flex items-center">
         <Terminal></Terminal>
         <p className="mx-1 text-foreground">curl</p>
         <Link className="" href={"/"}>
-          {fullUrl}
+          {fullUrl.replace("http://", "").replace("https://", "")}
         </Link>
         <div className="h-4 w-3 bg-cursorColor blink"></div>
       </div>
