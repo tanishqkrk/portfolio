@@ -5,14 +5,15 @@ import //  Arimo,
 //  Source_Code_Pro
 "next/font/google";
 import {
-  // Coming_Soon,
-  // Condiment,
+  Coming_Soon,
+  Condiment,
   Fira_Code,
-  // Lexend_Exa,
-  // Montserrat,
-  // Source_Code_Pro,
-  // Space_Grotesk,
-  // Ubuntu,
+  Lexend_Exa,
+  Montserrat,
+  Source_Code_Pro,
+  Space_Grotesk,
+  Ubuntu,
+  JetBrains_Mono,
 } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
   description: "Peek into the life of a SWE and clash of clans player.",
 };
 
-const armio = Fira_Code({
+const armio = JetBrains_Mono({
   weight: ["400"],
   subsets: ["latin"],
 

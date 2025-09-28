@@ -69,6 +69,31 @@ import type { Config } from "tailwindcss";
 //   selectionBackground: "#141414",
 //   cursorColor: "#c9c9c9",
 // };
+
+export const colorScheme = {
+  name: "MaterialOcean",
+  black: "#546e7a",
+  red: "#ff5370",
+  green: "#c3e88d",
+  yellow: "#ffcb6b",
+  blue: "#82aaff",
+  purple: "#c792ea",
+  cyan: "#89ddff",
+  white: "#ffffff",
+  brightBlack: "#546e7a",
+  brightRed: "#ff5370",
+  brightGreen: "#c3e88d",
+  brightYellow: "#ffcb6b",
+  brightBlue: "#82aaff",
+  brightPurple: "#c792ea",
+  brightCyan: "#89ddff",
+  brightWhite: "#ffffff",
+  background: "#0f111a",
+  foreground: "#8f93a2",
+  selectionBackground: "#1f2233",
+  cursorColor: "#ffcc00",
+};
+
 // export const colorScheme = {
 //   black: "#07080d",
 //   red: "#ffc0b9",
@@ -92,29 +117,29 @@ import type { Config } from "tailwindcss";
 //   cursorColor: "#9b9ea4",
 // };
 
-export const colorScheme = {
-  name: "Adventure",
-  black: "#040404",
-  red: "#d84a33",
-  green: "#5da602",
-  yellow: "#eebb6e",
-  blue: "#417ab3",
-  purple: "#e5c499",
-  cyan: "#bdcfe5",
-  white: "#dbded8",
-  brightBlack: "#685656",
-  brightRed: "#d76b42",
-  brightGreen: "#99b52c",
-  brightYellow: "#ffb670",
-  brightBlue: "#97d7ef",
-  brightPurple: "#aa7900",
-  brightCyan: "#bdcfe5",
-  brightWhite: "#e4d5c7",
-  background: "#040404",
-  foreground: "#feffff",
-  selectionBackground: "#606060",
-  cursorColor: "#feffff",
-};
+// export const colorScheme = {
+//   name: "Adventure",
+//   black: "#040404",
+//   red: "#d84a33",
+//   green: "#5da602",
+//   yellow: "#eebb6e",
+//   blue: "#417ab3",
+//   purple: "#e5c499",
+//   cyan: "#bdcfe5",
+//   white: "#dbded8",
+//   brightBlack: "#685656",
+//   brightRed: "#d76b42",
+//   brightGreen: "#99b52c",
+//   brightYellow: "#ffb670",
+//   brightBlue: "#97d7ef",
+//   brightPurple: "#aa7900",
+//   brightCyan: "#bdcfe5",
+//   brightWhite: "#e4d5c7",
+//   background: "#040404",
+//   foreground: "#feffff",
+//   selectionBackground: "#606060",
+//   cursorColor: "#feffff",
+// };
 
 const config: Config = {
   content: [

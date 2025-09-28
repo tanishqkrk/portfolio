@@ -20,7 +20,7 @@ export default function Home() {
               height={400}
               className="w-full"
               alt="My face"
-              src={"/me2.webp"}
+              src={"/me3.jpg"}
               priority
               placeholder="blur"
               blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyLVvzNL8Wa2rLYty2pxKxqvZc/l+4y7xvnFuIhTMqL25ajtNE8hnY3b2v2pQ/7f//Z"
@@ -28,12 +28,12 @@ export default function Home() {
           </div>
         </div>
         <div>
-          I&apos;m <span className="font-bold">Tanishq Kaushal</span>, a 22 year
-          old self-taught <span className="font-bold">software engineer</span>{" "}
-          based in New Delhi, India. While working professionally in companies
-          like{" "}
+          I&apos;m <span className="font-bold text-white">Tanishq Kaushal</span>
+          , a 22 year old self-taught{" "}
+          <span className="font-bold text-white">software engineer</span> based
+          in New Delhi, India. While working professionally in companies like{" "}
           <a
-            className="text-brightBlue hover:underline"
+            className="link hover:underline"
             target="_blank"
             href="https://www.getprobooking.com/"
           >
@@ -42,7 +42,7 @@ export default function Home() {
           and currently working at{" "}
           <a
             target="_blank"
-            className="text-brightBlue hover:underline"
+            className="link hover:underline"
             href="https://www.asymmetri.in/"
           >
             Asymmetri
@@ -50,28 +50,29 @@ export default function Home() {
           , I also like hacking together projects on the side. Currently working
           on{" "}
           <a
-            className="text-brightBlue hover:underline"
+            className="link hover:underline"
             target="_blank"
-            href="https://kando-work.vercel.app/"
+            href="https://lyrify-beta.vercel.app/"
           >
-            Kando
+            Lyrify
           </a>
           . My tech stack being{" "}
-          <span className="font-bold">everything JavaScript</span> (TypeScript,
-          NextJS, redux, all that cool stuff). And I&apos;m currently learning
-          Golang.
+          <span className="font-bold text-white">everything JavaScript</span>{" "}
+          (TypeScript, NextJS, redux, all that cool stuff). And I&apos;m
+          currently learning Golang.
+          <br />I also practice boxing, lift weights and go on jogs to keep up
+          with my unhealthy caffeine habits. Oh! I like solving rubik&apos;s
+          cubes, practicing math quizes and play Clash of Clans (I&apos;m a Town
+          hall 14).
           <br />
-          I also practice boxing, lift weights and go on jogs to keep up with my
-          unhealthy caffeine habits. Oh! I like solving rubik&apos;s cubes,
-          practicing math quizes and play Clash of Clans (I&apos;m a Town hall
-          14).
+          {/* Oh btw this theme and font is the same as my code editor {":)"} */}
+          {/* <br /> */}
           <br />
-          <br />
-          <Link href="/work" className="text-brightBlue hover:underline ">
+          <Link href="/work" className="link hover:underline ">
             Read about my work.
           </Link>
           <br />
-          <Link href="/resume.pdf" className="text-brightBlue hover:underline">
+          <Link href="/resume.pdf" className="link hover:underline">
             Resume.
           </Link>
         </div>

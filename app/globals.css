@@ -57,6 +57,7 @@ body {
 }
 
 
-.markdown a {
-  color:#388EFF !important
+.markdown a, .link {
+  color:#388EFF !important;
+  text-decoration: underline !important;
 }
