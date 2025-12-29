@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div>
           I&apos;m <span className="font-bold text-white">Tanishq Kaushal</span>
-          , a 22 year old self-taught{" "}
+          , a 23 year old self-taught{" "}
           <span className="font-bold text-white">software engineer</span> based
           in New Delhi, India. While working professionally in companies like{" "}
           <a
