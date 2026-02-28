@@ -18,7 +18,7 @@ export default function Header() {
         <Terminal></Terminal>
         <p className="mx-1 text-foreground">curl</p>
         <Link className="" href={"/"}>
-          {fullUrl.replace("http://", "").replace("https://", "")}
+          {fullUrl.replace("http://", "").replace("https://", "").split("/")[0]}
         </Link>
         <div className="h-4 w-3 bg-cursorColor blink"></div>
       </div>

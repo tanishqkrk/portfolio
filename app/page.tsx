@@ -52,18 +52,19 @@ export default function Home() {
           <a
             className="link hover:underline"
             target="_blank"
-            href="https://lyrify-beta.vercel.app/"
+            href="https://wordrush-game.vercel.app/"
           >
-            Lyrify
+            WordRush
           </a>
           . My tech stack being{" "}
           <span className="font-bold text-white">everything JavaScript</span>{" "}
-          (TypeScript, NextJS, redux, all that cool stuff). And I&apos;m
-          currently learning Golang.
+          (TypeScript, NextJS, redux, all that cool stuff).
+          {/* And I&apos;m
+          currently learning Golang. */}
           <br />I also practice boxing, lift weights and go on jogs to keep up
-          with my unhealthy caffeine habits. Oh! I like solving rubik&apos;s
-          cubes, practicing math quizes and play Clash of Clans (I&apos;m a Town
-          hall 14).
+          with my unhealthy caffeine habits. Oh! I also like solving
+          rubik&apos;s cubes, practicing math quizes, play Chess & Clash of
+          Clans (I&apos;m a Town hall 14).
           <br />
           {/* Oh btw this theme and font is the same as my code editor {":)"} */}
           {/* <br /> */}
