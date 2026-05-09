@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-// @ts-expect-error ungaugnuagns
 import "./globals.css";
 import //  Arimo,
 // Montaga,
