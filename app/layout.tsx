@@ -14,8 +14,8 @@ import {
   // Source_Code_Pro,
   // Space_Grotesk,
   // Ubuntu,
-  JetBrains_Mono,
-  VT323,
+  // JetBrains_Mono,
+  // VT323,
   IBM_Plex_Mono,
 } from "next/font/google";
 import Header from "@/components/Header";
