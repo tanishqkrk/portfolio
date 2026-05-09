@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="space-y-3 mb-16">
+    <div className="space-y-3 mb-16 text-white/90">
       <div className="flex gap-12 max-sm:flex-col max-sm:gap-6">
         <div className="space-y-3">
           <pre>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+// @ts-expect-error ungaugnuagns
 import "./globals.css";
 import //  Arimo,
 // Montaga,
@@ -14,6 +15,8 @@ import {
   // Space_Grotesk,
   // Ubuntu,
   JetBrains_Mono,
+  VT323,
+  IBM_Plex_Mono,
 } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -23,12 +26,14 @@ export const metadata: Metadata = {
   description: "Peek into the life of a SWE and clash of clans player.",
 };
 
-const armio = JetBrains_Mono({
-  weight: ["400"],
+const armio = IBM_Plex_Mono({
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
   subsets: ["latin"],
-
-  // display: "swap",
 });
+// const armio = JetBrains_Mono({
+//   weight: ["400"],
+//   subsets: ["latin"],
+// });
 
 export default function RootLayout({
   children,
