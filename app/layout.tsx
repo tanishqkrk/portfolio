@@ -20,7 +20,7 @@ import {
 } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-
+//
 export const metadata: Metadata = {
   title: "Tanishqkrk",
   description: "Peek into the life of a SWE and clash of clans player.",
