@@ -52,7 +52,7 @@ export default function Home() {
           <a
             className="link hover:underline"
             target="_blank"
-            href="https://wordrush-game.vercel.app/"
+            href="https://wordrush.site/"
           >
             WordRush
           </a>
